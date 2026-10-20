@@ -35,7 +35,7 @@ jobs:
       - name: Renderizar y copiar at
         run: |
           quarto render at
-          cp -r atl/_book _site/at
+          cp -r at/_book _site/at
 
       - name: Renderizar y copiar sp
         run: |
