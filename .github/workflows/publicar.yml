@@ -21,6 +21,9 @@ jobs:
       - name: Instalar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Instalar TinyTeX para PDFs
+        run: quarto install tinytex --update-path
+
       - name: Crear carpeta de ensamblaje (_site)
         run: mkdir _site
 
