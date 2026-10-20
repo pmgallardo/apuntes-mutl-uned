@@ -1,0 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Metodología de investigación del Procesamiento del Lenguaje Natural
+
+Apuntes sobre el tema 1 de la asignatura.
+

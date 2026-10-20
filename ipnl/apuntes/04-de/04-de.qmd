@@ -1,0 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Diseño experimental
+
+Apuntes sobre el tema 4 de la asignatura.
+

@@ -1,0 +1,67 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Representación de textos en espacios vectoriales y probabilísticos"
+  subtitle: "Guía de estudio de la asignatura del MUTL de la UNED"
+  author: "Colaboradores de apuntes-mutl-uned"
+  date: today
+  language: es
+  favicon: images/favicon.png
+  
+  site-url: https://pmgallardo.github.io/apuntes-mutl-uned/rt
+  repo-url: https://github.com/pmgallardo/apuntes-mutl-uned/rt
+  repo-actions: [edit, issue, source]
+
+  sidebar:
+    style: "docked"
+    search: true
+    
+  chapters:
+    - index.qmd
+
+lang: es
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-location: right-body
+    number-sections: true
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: lualatex
+
+    mainfont: "Source Sans 3"
+    sansfont: "Source Sans 3"
+    monofont: "Source Code Pro"
+
+    fontsize: 11pt
+    linestretch: 1.15
+
+    papersize: a4
+
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=27mm
+      - right=25mm
+
+    toc: true
+    toc-depth: 4
+    number-sections: true
+
+    colorlinks: true
+    linkcolor: agebluelink
+    urlcolor: agebluelink
+    citecolor: agebluelink
+    toccolor: agebluelink
+
+    code-block-bg: "#f7f9fc"
+    code-block-border-left: "#003399"
+
+    include-in-header:
+      - latex/preamble.tex

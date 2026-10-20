@@ -1,0 +1,34 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Introducción
+
+- Código asignatura: 31070023
+- Título: Representación de textos en espacios vectoriales y probabilísticos
+
+La asignatura es a menudo referida coloquialmente por los alumnos como "vectores".
+
+[Ficha oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31070023&codTitulacion=310701&idContenido=1)
+
+## Opiniones de antiguos alumnos
+
+- Q. (25/26): *Personalmente, creo que son profesores maravillosos. Comprensivos, con ánimos enseñar y muy preocupado de los alumnos. Lamentablemente están muy ocupados y no disponen de mucho tiempo, pero sus prácticas son buenas y es una asignatura muy importante, si no de las que más.*
+
+- S.: *Mi asignatura favorita del máster. Creo que si eres capaz de comprenderla bien consigues una base muy fuerte en este campo de conocimiento. De mis asignaturas, la única que el contenido es auténtico. El profesor graba clases y también hace una sesión de repaso de cada tema. Además, tiene entregas prácticas y teóricas que te obligan a estudiar. No es una asignatura fácil pero creo que es un must en este máster (en mi opinión)*
+
+- J.: *más teórica, casi especulativa a veces, pero muy interesante y con mucho aprendizaje (insisto, en mi caso)*.
+
+- A. (21/22): *Va muy de la mano de redes neuronales porque entender cómo representas un texto en un espacio vectorial te facilita luego el entrenamiento de clasificadores. El equipo docente se implica algo. En RNN y Vectores pasa que ¡los contenidos se solapan! Y entonces enlazas ideas y dices… pues ya entiendo esto.*
+
+## Bibliografía
+
+- Básica
+    - Jurafsky, Dan, Martin, James H. [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/). 3.ª ed. 2026.
+
+## Comunidades
+
+- Activas
+    - Grupo [Representación de textos](https://t.me/+kCjP-D_F4S1kZDdk) en Telegram

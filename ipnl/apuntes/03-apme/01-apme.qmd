@@ -1,0 +1,4 @@
+# Abstracción del problema y métricas de evaluación
+
+Apuntes sobre el tema 3 de la asignatura.
+

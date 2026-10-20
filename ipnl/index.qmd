@@ -1,0 +1,50 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Introducción {.unnumbered}
+
+Título: Introducción a la investigación del procesamiento natural del lenguaje
+
+Código: `3107003-`
+
+Abreviatura: `ipnl`
+
+[Guía web](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=3107003-&codTitulacion=310701&idContenido=1)
+
+## Opiniones de antiguos alumnos
+
+Ordenadas de más recientes a más antiguas:
+
+- D. (25/26): *No es difícil. Tienes que buscarte la vida ya que no hay mucha explicación, pero luego los trabajos me han parecido asequibles.*
+
+- P.: *Es bastante interesante y el material está bien, pero los profesores están totalmente desaparecidos*.
+
+- S.: *Depende de lo que te guste o se te de bien pero no creo que sea una asignatura en la que se aprenda mucho. Y realmente no recibes mucha feedback sobre tus tareas. Cualquier cosa que te enseñen sobre la investigación puedes buscarla en Google y aprenderla tú mismo. Pero creo que eso es lo que ocurre en la mayoría de las asignaturas*.
+
+- P.: *Para los que no tienen ni idea de investigar… bueno, podria estar bien… pero es un poco coñazo. Además, una de las prácticas no creo que esté bien dimensionada… tienes que escribir una propuesta de investigación en modo paper como si la fueras a mandar a una revista/conferencia*.
+
+- M.: *No me gustó, he aprendido poca cosa. Tostón*.
+
+## Evaluación
+
+En el curso 2026/2027, la nota final se calculó aplicando la siguiente fórmula:
+
+$$\text{nota final} = t_1 \cdot 5\% + t_2 \cdot 5\% + t_3 \cdot 10\% + t_4 \cdot 25\% + t_5 \cdot 25\% + t_7 \cdot 30\%$$
+
+El tema 6 no es evaluado.
+
+Todos los trabajos comparten una fechas de entregas comunes, una al finalizar la convocatoria de junio (06/06/2027) y otra al finalizar la convocatoria de septiembre (05/07/2027).
+
+## Bibliografía
+
+- Básica
+    - Referencias dentro del curso virtual.
+
+## Comunidades
+
+- Activas
+    - Grupo "[Investigación PNL](https://t.me/+FduwQgfx-tswMjk0){target="_blank"} en Telegram
+

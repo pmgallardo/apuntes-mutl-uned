@@ -1,0 +1,14 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Minería información social
+
+Código: 31101324
+Abreviatura: `ms`
+Nombre: Minería información social
+
+[Ficha oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31101324&codTitulacion=310701&idContenido=1)
+

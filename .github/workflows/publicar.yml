@@ -1,0 +1,57 @@
+name: Publicar web del MUTL UNED
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Crear carpeta de ensamblaje (_site)
+        run: mkdir _site
+
+      - name: Renderizar y copiar ipnl
+        run: |
+          quarto render ipnl
+          cp -r ipnl/_book _site/ipnl
+
+      - name: Renderizar y copiar atl
+        run: |
+          quarto render atl
+          cp -r atl/_book _site/atl
+
+      - name: Renderizar y copiar sp
+        run: |
+          quarto render sp
+          cp -r sp/_book _site/sp
+
+      # Repite el bloque anterior para cada asignatura adicional
+
+      - name: Copiar página principal (index.html)
+        run: cp index.html _site/index.html
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Subir artefacto
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Desplegar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
