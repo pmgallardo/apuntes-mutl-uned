@@ -32,10 +32,10 @@ jobs:
           quarto render ipnl
           cp -r ipnl/_book _site/ipnl
 
-      - name: Renderizar y copiar atl
+      - name: Renderizar y copiar at
         run: |
-          quarto render atl
-          cp -r atl/_book _site/atl
+          quarto render at
+          cp -r atl/_book _site/at
 
       - name: Renderizar y copiar sp
         run: |
