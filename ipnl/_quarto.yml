@@ -63,14 +63,3 @@ format:
     toc-depth: 4
     number-sections: true
 
-    colorlinks: true
-    linkcolor: agebluelink
-    urlcolor: agebluelink
-    citecolor: agebluelink
-    toccolor: agebluelink
-
-    code-block-bg: "#f7f9fc"
-    code-block-border-left: "#003399"
-
-    include-in-header:
-      - latex/preamble.tex
