@@ -27,6 +27,11 @@ jobs:
       - name: Crear carpeta de ensamblaje (_site)
         run: mkdir _site
 
+      - name: Renderizar y copiar aii
+        run: |
+          quarto render aii
+          cp -r aii/_book _site/aii
+
       - name: Renderizar y copiar ipnl
         run: |
           quarto render ipnl
