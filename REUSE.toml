@@ -1,0 +1,33 @@
+version = 1
+
+# Data and documents
+[[annotations]]
+path = [
+  # Data files
+  "**/*.csv", 
+  # Office documents
+  "**/*.txt", 
+  "**/*.doc", 
+  "**/*.docx", 
+  "**/*.pdf",
+  "**/*.xls", 
+  "**/*.xlsx",
+  # Images
+  "**/*.gif",
+  "**/*.jpeg",
+  "**/*.jpg",
+  "**/*.png",
+  # Compressed files
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Colaboradores de apuntes-mutl-uned"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Source codes and notebooks that do not accept embedded license annotations
+[[annotations]]
+path = [
+  "**/*.ipynb"
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Colaboradores de apuntes-mutl-uned"
+SPDX-License-Identifier = "MIT"
