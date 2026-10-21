@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 #
-# SPDX-License-Identifier: CC-BY-4.0
+# SPDX-License-Identifier: MIT
 
 # Declara que estos nombres no son archivos, sino comandos
 .PHONY: all clean preview

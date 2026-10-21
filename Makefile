@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 #
-# SPDX-License-Identifier: CC-BY-4.0
+# SPDX-License-Identifier: MIT
 
 # Encuentra automáticamente todas las subcarpetas que contienen un Makefile
 SUBDIRS := $(dir $(wildcard */Makefile))
