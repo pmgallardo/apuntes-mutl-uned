@@ -6,30 +6,5 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Introducción
 
-Código: `31070069`  
-Nombre: Aplicaciones de tecnologías del lenguaje  
 
-[Guía oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31070069&codTitulacion=310701&idContenido=1)
-
-## Opiniones de antiguos alumnos
-
-- J. (25/26): *Se ha notado un poco la desorganización e improvisación al ser nueva. Bastante asequible en mi opinión*.
-
-- P. (24/25): *tiene poca carga de trabajo. Aplicaciones no está mal, pero este año [curso 2024/2025] es el primero que se ofertó y se nota, algunos de los apuntes no estaban muy bien hechos*.
-
-## Evaluación
-
-Entregas todas en junio.
-
-## Bibliografía
-
-- Básica
-    - Material propio del equipo docente.
-- Complementario
-    - Bibliografía referida en el material propio del equipo docentes.
-
-## Comunidades
-
-- Activas
-    - Grupo "[Aplicaciones de tecnologías del lenguaje](https://t.me/+yns2qJW0eEk2N2U0)" en Telegram.
 

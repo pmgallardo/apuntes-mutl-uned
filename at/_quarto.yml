@@ -21,6 +21,8 @@ book:
     
   chapters:
     - index.qmd
+    - general.qmd
+    - contribuciones.qmd
 
 lang: es
 

@@ -1,0 +1,99 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Contribuciones {.unnumbered}
+
+La documentación de este repositorio está elaborada de manera voluntaria, por lo que necesitamos tu colaboración para poder mejorar y actualizar el contenido.
+
+Es posible que la versión que estés viendo esté incompleta o contenga errores, y la única manera de mejorarla es que entre todos aportemos pequeños cambios.
+
+## Colaborar con el proyecto
+
+Si estás interesado/a en **aportar contenido** al proyecto, puedes hacerlo de alguna de las siguientes maneras:
+
+- Si estás familiarizado con GitHub, puedes **abrir** directametne una **issue o** una **pull request** en el repositorio.
+- En caso contrario, puedes acceder al **grupo [apuntes-mutl-uned](https://t.me/+1RJx_dxBqSRkMjQ8) de Telegram** y compartir allí tu aportación.
+
+Cuando elabores el material, te agradeceríamos que siguieras estos **consejos**: 
+
+- Los **formatos preferidos** son, por orden descendente de preferencia y en base a su compatibilidad con Quarto:
+  1. **Markdown** (`.md`, `.qmd`) y **Jupyter Notebook** (`.ipynb`).
+  2. **Otros documentos fuente** como documentos de texto (`.docx`, `.odt`), LaTeX (`.tex`), etc. Estos serían convertidos a Markdown de manera automática con la herramienta `pandoc`, por lo que su uso no es preferente.  
+  3. **PDF** (`.pdf`). Antes que enviar un PDF, es siempre mejor enviar el fichero original con el que se generó.
+- Revisar y **actualizar los ficheros fuente existentes** del repositorio, en caso de que una asignatura incluya ya contenido sobre el tema aportado.
+
+En caso de dudas, puedes escribir al grupo [apuntes-mutl-uned](https://t.me/+1RJx_dxBqSRkMjQ8) de Telegram.
+
+## Trabajar en local
+
+La documentación está subida a una web (alojada en GitHub Pages), desde la cual puedes explorar la versión HTML o descargar las de PDF y EPUB (los llamados ficheros finales o distribuibles). No obstante, si vas a aplicar tus propios cambios a los ficheros fuente en local querrás generar también los distribuibles para poder visualizar tus cambios.
+
+Por si estás en esta situación, resumimos aquí los pasos para configurar el sistema y visualizar documentos en local. Las instrucciones pueden variar dependiendo del sistema operativo empleado.  
+
+1. Configurar el sistema
+2. Descargar el proyecto en local
+3. Generar la versión distribuible
+
+### Configurar el sistema
+
+La configuración del sistema supone lo siguientes pasos:
+
+1. Instalar Quarto en local
+2. Instalar Make (opcional pero recomendado)
+
+#### Instalar Quarto en local
+
+Puedes descargar el instalador de los sistemas operativos disponibles (Windows, macOS, Linux) desde la [página de descarga de Quarto](https://quarto.org/docs/download/).
+
+Las instrucciones de instalación varían dependiendo del sistema operativo.
+
+#### Instalar Make
+
+Si usas Linux o macOS, `make` probablemente ya esté instalado en tu sistema.
+
+En Windows 11 existen múltiples maneras de instalar Make:
+
+- Descarga directa del ejecutable GNU Make
+- Instalación desde Chocolatey
+- Instalación desde Scoop
+- Uso de CygWin
+- Instalación desde MSYS2
+- Uso de MinCW
+- Uso de WSL2
+
+Por dejar aquí una manera sencilla de instalarlo, sería suficiente con abrir la PowerShell y ejecutar el siguiente comando:
+
+```powershell
+winget install GnuWin32.Make
+```
+
+Para probar que `make` está instalado correctamente, desde la terminal de tu sistema operativo ejecuta:
+
+```shell
+make -v
+```
+
+### Descargar el proyecto en local
+
+Para descargar el proyecto en local, se debe ir al repositorio GitHub y descargar desde la página principal el fichero completo. El fichero descargado será uno 
+
+### Generar la versión distribuible
+
+Si tienes `make` instalado en tu sistema, es suficiente con abrir un terminal, ir a la carpeta de proyecto y escribir `make`. Automáticamente se ejecutarán los `make` contenidos en cada carpeta y se creará una carpeta `_book` dentro de la carpeta de cada asignatura, que contendrán los ficheros distribuibles.
+
+Si ejecutas `make site`, se generará una carpeta `_site` en el directorio raíz del proyecto que incluirán los distribuibles. Esta es la opción recomendada.  
+
+Si quieres generar los distribuibles de una sola asignatura, desde un terminal ir a la carpeta de la asignatura y una vez allí:
+
+- ejecutar `make` (si se instaló) o `quarto render` (si se quiere que se generen los ficheros la carpeta '_book') 
+- ejecutar `quarto preview` (si se quiere visualizar directamente el documento en el navegador).
+
+### Borrar los distribuibles
+
+En caso de querer borrar los ficheros distribuibles generados, si se tiene `make` instalado es suficiente con abrir un terminal y ejecutar `make clean` desde la carpeta raíz del proyecto.
+
+La alternativa es borrar manualmente la carpeta `_site` de la carpeta raíz del proyecto y el fichero `.quarto` y la carpeta `_book` de cada una de las carpetas de asignaturas. 
+
