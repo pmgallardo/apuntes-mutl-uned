@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
 # Tema 1: Introducción
 
 Tema 1 "Introducción"
