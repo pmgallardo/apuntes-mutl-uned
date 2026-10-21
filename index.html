@@ -1,121 +1,389 @@
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
-
 SPDX-License-Identifier: MIT
 -->
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apuntes MUTL UNED</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* =========================================
+           PALETA DE COLORES (Gama Cálidos/Tierras)
+           ========================================= */
+        :root {
+            --color-master: #7B241C; /* Granate principal */
+            
+            --color-ipnl:   #A04000; /* Terracota */
+            --color-aii:    #D35400; /* Naranja Quemado */
+            --color-mt:     #D4AC0D; /* Ocre */
+            --color-at:     #F39C12; /* Ámbar */
+            --color-md:     #CA6F1E; /* Bronce */
+            --color-tbg:    #BA4A00; /* Rojizo */
+            --color-rt:     #922B21; /* Rojo oscuro */
+            --color-mp:     #B03A2E; /* Rojo óxido */
+            --color-rn:     #E67E22; /* Zanahoria */
+            --color-mis:    #AF601A; /* Marrón cálido */
+            --color-sp:     #D68910; /* Miel */
+            --color-mb:     #9C640C; /* Dorado oscuro */
+            --color-fpl:    #873600; /* Caoba */
+            --color-tfm:    #641E16; /* Granate muy oscuro */
+
+            --bg-page: #FDFEFE;
+            --text-main: #2D3748;
+            --text-muted: #64748B;
+            --telegram-blue: #0088cc;
+        }
+
+        /* =========================================
+           ESTILOS BASE
+           ========================================= */
+        body {
+            font-family: 'Lora', serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, .ui-text {
+            font-family: 'Inter', sans-serif;
+        }
+
+        a { text-decoration: none; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px 40px 20px;
+        }
+
+        /* =========================================
+           CABECERA TIPO "HERO"
+           ========================================= */
+        .hero {
+            background-color: #ffffff;
+            background-image: radial-gradient(#E5E7EB 1px, transparent 1px);
+            background-size: 24px 24px;
+            padding: 80px 20px 60px 20px;
+            text-align: center;
+            border-bottom: 1px solid #E2E8F0;
+            margin-bottom: 50px;
+        }
+
+        .hero h1 {
+            color: var(--color-master);
+            font-size: 2.8rem;
+            margin: 0 0 15px 0;
+            letter-spacing: -0.5px;
+            font-weight: 700;
+        }
+
+        .intro-text {
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            text-wrap: balance;
+        }
+
+        /* Botón Telegram Secundario */
+        .link-telegram {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--telegram-blue);
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(0, 136, 204, 0.08);
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .link-telegram:hover {
+            background: rgba(0, 136, 204, 0.15);
+            color: #006699;
+        }
+
+        .link-telegram svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+
+        /* =========================================
+           GUÍA DEL MÁSTER
+           ========================================= */
+        .master-card {
+            background: var(--color-master);
+            color: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            display: block;
+        }
+        
+        .master-card:hover { transform: translateY(-5px); }
+        .master-card h2 { color: white; margin: 0 0 10px 0; font-weight: 600; }
+        .master-card p { margin: 0; color: #FADBD8; font-family: 'Inter', sans-serif; }
+
+        /* =========================================
+           GRID Y SEPARADORES
+           ========================================= */
+        .section-header {
+            margin-bottom: 30px;
+        }
+
+        .section-header h2 {
+            color: var(--text-main);
+            font-size: 2rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        /* =========================================
+           TARJETAS DE ASIGNATURA
+           ========================================= */
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            border-top: 5px solid; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        }
+
+        .card.ipnl { border-color: var(--color-ipnl); } .card.ipnl h3 { color: var(--color-ipnl); }
+        .card.aii { border-color: var(--color-aii); } .card.aii h3 { color: var(--color-aii); }
+        .card.mt { border-color: var(--color-mt); } .card.mt h3 { color: var(--color-mt); }
+        .card.at { border-color: var(--color-at); } .card.at h3 { color: var(--color-at); }
+        .card.md { border-color: var(--color-md); } .card.md h3 { color: var(--color-md); }
+        .card.tbg { border-color: var(--color-tbg); } .card.tbg h3 { color: var(--color-tbg); }
+        .card.rt { border-color: var(--color-rt); } .card.rt h3 { color: var(--color-rt); }
+        .card.mp { border-color: var(--color-mp); } .card.mp h3 { color: var(--color-mp); }
+        .card.rn { border-color: var(--color-rn); } .card.rn h3 { color: var(--color-rn); }
+        .card.mis { border-color: var(--color-mis); } .card.mis h3 { color: var(--color-mis); }
+        .card.sp { border-color: var(--color-sp); } .card.sp h3 { color: var(--color-sp); }
+        .card.mb { border-color: var(--color-mb); } .card.mb h3 { color: var(--color-mb); }
+        .card.fpl { border-color: var(--color-fpl); } .card.fpl h3 { color: var(--color-fpl); }
+        .card.tfm { border-color: var(--color-tfm); } .card.tfm h3 { color: var(--color-tfm); }
+
+        .card h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.2rem;
+            line-height: 1.3;
+        }
+
+        .card-meta {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* =========================================
+           FOOTER Y LICENCIAS
+           ========================================= */
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #E2E8F0;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        footer a { 
+            color: var(--color-master); 
+            font-weight: 600; 
+            text-decoration: underline; 
+            text-decoration-color: transparent; 
+            transition: text-decoration-color 0.2s;
+        }
+        
+        footer a:hover { 
+            text-decoration-color: var(--color-master); 
+        }
+        
+        .footer-licenses { margin-bottom: 20px; }
+    </style>
 </head>
 <body>
+
+<header class="hero">
     <h1>Apuntes MUTL UNED</h1>
-    <p>En esta página encontrarás recursos de estudio no oficiales para el Máster Universitario de Tecnologías del Lenguaje (MUTL) impartido por la Universidad Nacional de Educación a Distancia (UNED).</p>
-    <p>El proyecto se realiza a partir de contenido aportado por voluntarios y con fines educativos, y no está afiliado con la UNED.</p>
+    <div class="intro-text">
+        <p>Recursos de estudio para el Máster Universitario de Tecnologías del Lenguaje. Un espacio colaborativo para el aprendizaje, no afiliado a la UNED.</p>
+    </div>
+    <a href="t.me" target="_blank" class="link-telegram">
+        <svg viewBox="0 0 24 24">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.94z"/>
+        </svg>
+        Grupo de Telegram
+    </a>
+</header>
+
+<div class="container">
+
+    <a href="master/" class="master-card ui-text">
+        <h2>Guía general del máster</h2>
+        <p>Lectura recomendada para estudiantes de nuevo ingreso. Aspectos generales y metodología.</p>
+    </a>
+
+    <div class="section-header">
+        <h2>Asignaturas</h2>
+        <p>Selecciona una asignatura para acceder a los apuntes, resúmenes y código.</p>
+    </div>
     
-    <h2>Información general del máster</h2>
-    
-    <p>Si eres nuevo/a, te recomendamos que empieces revisando esta guía sobre aspectos generales del máster.</p>
-    <p><a href="master/">Guía general del máster</a></p>
-    
-    <h2>Asignaturas</h2>
-    
-    <p>Haz clic en el enlace para ver obtener más información sobre la asignatura:</p>
-    
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Código</th>
-          <th>Abrev.</th>
-          <th>Título asignatura</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>3107003-</td>
-          <td><a href="ipnl/">ipnl</a></td>
-          <td>Introducción al procesamiento natural del lenguaje</td>
-        </tr>
-        <tr>
-          <td>31101019</td>
-          <td><a href="aii/">aii</a></td>
-          <td>Acceso inteligente a la información</td>
-        </tr>
-        <tr>
-          <td>31070052</td>
-          <td><a href="mt/">mt</a></td>
-          <td>Minería de textos</td>
-        </tr>     
-        <tr>
-          <td>31070069</td>
-          <td><a href="at/">at</a></td>
-          <td>Aplicaciones en tecnologías del lenguaje</td>
-        </tr>
-        <tr>
-          <td>31101061</td>
-          <td><a href="md/">md</a></td>
-          <td>Minería de datos</td>
-        </tr>
-        <tr>
-          <td>31101305</td>
-          <td><a href="tbg/">tbg</a></td>
-          <td>Técnicas basadas en grafos aplicados al procesamiento del lenguaje</td>
-        </tr>
-        <tr>
-          <td>31070023</td>
-          <td><a href="rt/">rt</a></td>
-          <td>Representación de textos en espacios vectoriales y probabilísticos</td>
-        </tr>
-        <tr>
-          <td>31101199</td>
-          <td><a href="mp/">mp</a></td>
-          <td>Métodos probabilistas</td>
-        </tr>
-        <tr>
-          <td>31070017</td>
-          <td><a href="rn/">rn</a></td>
-          <td>Redes neuronales para el procesamiento del lenguaje natural</td>
-        </tr>
-        <tr>
-          <td>31101324</td>
-          <td><a href="at/">at</a></td>
-          <td>Minería información social</td>
-        </tr>
-        <tr>
-          <td>3110131-</td>
-          <td><a href="sp/">sp</a></td>
-          <td>Semántica y pragmática en la web</td>
-        </tr>
-        <tr>
-          <td>31101042</td>
-          <td><a href="mb/">mb</a></td>
-          <td>Motores de búsqueda web</td>
-        </tr>
-        <tr>
-          <td>31080027</td>
-          <td><a href="fpl/">fpl</a></td>
-          <td>Fundamentos del procesamiento lingüístico</td>
-        </tr>  
-        <tr>
-          <td>31101042</td>
-          <td><a href="mb/">mb</a></td>
-          <td>Motores de búsqueda web</td>
-        </tr>
-        <tr>
-          <td>31101165-</td>
-          <td><a href="tfm/">tfm</a></td>
-          <td>Trabajo: procesamiento del lenguaje natural y recuperación de información</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <h2>Repositorio y licencias</h2>
-    
-    Contenido distribuido con licencias abiertas (<a href="https://mit-license.org/" target="_blank">MIT</a> para código y <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">CC-BY-4.0</a>   para el resto).
-    
-    <p><a href="https://github.com/pmgallardo/apuntes-mutl-uned" target="_blank">Repositorio de ficheros fuente</a></p>
-    
+    <div class="grid">
+        <a href="ipnl/" class="card ipnl">
+            <h3>Introducción al procesamiento natural del lenguaje</h3>
+            <div class="card-meta">
+                <span>Cód. 3107003-</span>
+            </div>
+        </a>
+
+        <a href="aii/" class="card aii">
+            <h3>Acceso inteligente a la información</h3>
+            <div class="card-meta">
+                <span>Cód. 31101019</span>
+            </div>
+        </a>
+
+        <a href="mt/" class="card mt">
+            <h3>Minería de textos</h3>
+            <div class="card-meta">
+                <span>Cód. 31070052</span>
+            </div>
+        </a>
+
+        <a href="at/" class="card at">
+            <h3>Aplicaciones en tecnologías del lenguaje</h3>
+            <div class="card-meta">
+                <span>Cód. 31070069</span>
+            </div>
+        </a>
+
+        <a href="md/" class="card md">
+            <h3>Minería de datos</h3>
+            <div class="card-meta">
+                <span>Cód. 31101061</span>
+            </div>
+        </a>
+
+        <a href="tbg/" class="card tbg">
+            <h3>Técnicas basadas en grafos aplicados al procesamiento del lenguaje</h3>
+            <div class="card-meta">
+                <span>Cód. 31101305</span>
+            </div>
+        </a>
+
+        <a href="rt/" class="card rt">
+            <h3>Representación de textos en espacios vectoriales y probabilísticos</h3>
+            <div class="card-meta">
+                <span>Cód. 31070023</span>
+            </div>
+        </a>
+
+        <a href="mp/" class="card mp">
+            <h3>Métodos probabilistas</h3>
+            <div class="card-meta">
+                <span>Cód. 31101199</span>
+            </div>
+        </a>
+
+        <a href="rn/" class="card rn">
+            <h3>Redes neuronales para el procesamiento del lenguaje natural</h3>
+            <div class="card-meta">
+                <span>Cód. 31070017</span>
+            </div>
+        </a>
+
+        <a href="mis/" class="card mis">
+            <h3>Minería información social</h3>
+            <div class="card-meta">
+                <span>Cód. 31101324</span>
+            </div>
+        </a>
+
+        <a href="sp/" class="card sp">
+            <h3>Semántica y pragmática en la web</h3>
+            <div class="card-meta">
+                <span>Cód. 3110131-</span>
+            </div>
+        </a>
+
+        <a href="mb/" class="card mb">
+            <h3>Motores de búsqueda web</h3>
+            <div class="card-meta">
+                <span>Cód. 31101042</span>
+            </div>
+        </a>
+
+        <a href="fpl/" class="card fpl">
+            <h3>Fundamentos del procesamiento lingüístico</h3>
+            <div class="card-meta">
+                <span>Cód. 31080027</span>
+            </div>
+        </a>
+
+        <a href="tfm/" class="card tfm">
+            <h3>Trabajo fin de máster</h3>
+            <div class="card-meta">
+                <span>Cód. 31070046</span>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-licenses">
+            El código fuente y notebooks se publican bajo licencia <a href="https://mit-license.org/" target="_blank">MIT</a>.<br>
+            Los datos y documentos se publican bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es" target="_blank">CC-BY-4.0</a>.
+        </div>
+        <div>
+            Contribuye o reporta errores en el <a href="https://github.com/pmgallardo/apuntes-mutl-uned" target="_blank">Repositorio de GitHub</a>.
+        </div>
+    </footer>
+
+</div>
+
 </body>
 </html>
