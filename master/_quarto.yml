@@ -8,7 +8,8 @@ book:
   author: "Colaboradores de apuntes-mutl-uned"
   date: today
   language: es
-  favicon: images/favicon.png
+  output-file: "mutl"
+  downloads: [pdf, epub]
   
   site-url: https://pmgallardo.github.io/apuntes-mutl-uned/master
   repo-url: https://github.com/pmgallardo/apuntes-mutl-uned/master
@@ -20,6 +21,8 @@ book:
     
   chapters:
     - index.qmd
+    - general.qmd
+    - contribuciones.qmd
 
 lang: es
 
@@ -53,15 +56,5 @@ format:
     toc: true
     toc-depth: 4
     number-sections: true
+  epub: default
 
-    colorlinks: true
-    linkcolor: agebluelink
-    urlcolor: agebluelink
-    citecolor: agebluelink
-    toccolor: agebluelink
-
-    code-block-bg: "#f7f9fc"
-    code-block-border-left: "#003399"
-
-    include-in-header:
-      - latex/preamble.tex
