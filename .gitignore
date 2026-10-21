@@ -6,7 +6,7 @@
 # Archivos y carpetas generados por Quarto
 # ==========================================
 # El directorio oculto de caché y estado de Quarto (generado en cada carpeta)
-.**/.quarto/
+**/.quarto/
 
 # Carpetas donde Quarto guarda el libro renderizado
 **/_book/
