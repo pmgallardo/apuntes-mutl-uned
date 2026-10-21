@@ -33,16 +33,17 @@ La documentación está subida a una web (alojada en GitHub Pages), desde la cua
 
 Por si estás en esta situación, resumimos aquí los pasos para configurar el sistema y visualizar documentos en local. Las instrucciones pueden variar dependiendo del sistema operativo empleado.  
 
-1. Configurar el sistema
-2. Descargar el proyecto en local
+1. Configurar el sistema local
+2. Descargar el proyecto
 3. Generar la versión distribuible
+4. Ejecutar código en servidor local
 
-### Configurar el sistema
+### Configurar el sistema local
 
-La configuración del sistema supone lo siguientes pasos:
+La configuración del sistema local supone lo siguientes pasos:
 
-1. Instalar Quarto en local
-2. Instalar Make (opcional pero recomendado)
+1. Instalar Quarto
+2. Instalar Make
 
 #### Instalar Quarto en local
 
@@ -76,24 +77,46 @@ Para probar que `make` está instalado correctamente, desde la terminal de tu si
 make -v
 ```
 
-### Descargar el proyecto en local
+### Descargar el proyecto
 
 Para descargar el proyecto en local, se debe ir al repositorio GitHub y descargar desde la página principal el fichero completo. El fichero descargado será uno 
 
 ### Generar la versión distribuible
 
-Si tienes `make` instalado en tu sistema, es suficiente con abrir un terminal, ir a la carpeta de proyecto y escribir `make`. Automáticamente se ejecutarán los `make` contenidos en cada carpeta y se creará una carpeta `_book` dentro de la carpeta de cada asignatura, que contendrán los ficheros distribuibles.
+Abre un terminal, ve a la carpeta de proyecto y ejecuta `make site`.
 
-Si ejecutas `make site`, se generará una carpeta `_site` en el directorio raíz del proyecto que incluirán los distribuibles. Esta es la opción recomendada.  
+Automáticamente se ejecutarán los `make` contenidos en cada carpeta y se creará una carpeta `_book` dentro de la carpeta de cada asignatura, que contendrán los ficheros distribuibles. Como último paso, se creará una carpeta `_site` en el directorio raíz del proyecto donde se copiarán todas las carpetas `_book` con los distribuibles.  
 
-Si quieres generar los distribuibles de una sola asignatura, desde un terminal ir a la carpeta de la asignatura y una vez allí:
+### Ejecutar código en servidor local
 
-- ejecutar `make` (si se instaló) o `quarto render` (si se quiere que se generen los ficheros la carpeta '_book') 
+Es necesario lanzar un servidor web para poder ejecutar la web. Para ello abre una terminal y ve al directorio raíz del proyecto. Aquí hay varias opciones, por ejemplo empleando Python o NPX (Node.js)
+
+Si tienes instalado Python y usas Windows, tendrás que emplear el comando `python`:
+
+```powershell
+python -m http.server 8000 --directory _site
+```
+
+Si tienes instalado Python y usas macOS o Linux, tendrás que emplear el comando `python3`: 
+
+```shell
+python3 -m http.server 8000 --directory _site
+```
+
+Si tienes instalado NPM (Node.js), puedes ejecutar el siguiente comando:
+
+```shell
+npx serve _site
+```
+
+Si se quiere tratar con una asingatura individual, abrir un terminal y una vez allí:
+
+- ejecutar `make` o `quarto render` (si se quiere que se generen los distribuibles en la carpeta '_book') 
 - ejecutar `quarto preview` (si se quiere visualizar directamente el documento en el navegador).
 
 ### Borrar los distribuibles
 
 En caso de querer borrar los ficheros distribuibles generados, si se tiene `make` instalado es suficiente con abrir un terminal y ejecutar `make clean` desde la carpeta raíz del proyecto.
 
-La alternativa es borrar manualmente la carpeta `_site` de la carpeta raíz del proyecto y el fichero `.quarto` y la carpeta `_book` de cada una de las carpetas de asignaturas. 
+La alternativa manual es borrar la carpeta `_site` de la carpeta raíz del proyecto y el fichero `.quarto` y la carpeta `_book` de cada una de las carpetas de asignaturas. 
 
