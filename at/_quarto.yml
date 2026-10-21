@@ -8,7 +8,8 @@ book:
   author: "Colaboradores de apuntes-mutl-uned"
   date: today
   language: es
-  favicon: images/favicon.png
+  output-file: "at"
+  downloads: [pdf, epub]
   
   site-url: https://pmgallardo.github.io/apuntes-mutl-uned/at
   repo-url: https://github.com/pmgallardo/apuntes-mutl-uned/at
@@ -53,4 +54,4 @@ format:
     toc: true
     toc-depth: 4
     number-sections: true
-
+  epub: default
