@@ -1,0 +1,41 @@
+% SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+%
+% SPDX-License-Identifier: CC-BY-4.0
+
+% ==========================================
+% 1. NIVELES DE VIÑETAS (Listas profundas)
+% ==========================================
+\usepackage{enumitem}
+\setlistdepth{9}
+\renewlist{itemize}{itemize}{9}
+
+% Define etiquetas para todos los niveles
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=--}
+\setlist[itemize,3]{label=*}
+\setlist[itemize,4]{label=\textperiodcentered}
+\setlist[itemize,5]{label=$\circ$}
+\setlist[itemize,6]{label=$\diamond$}
+\setlist[itemize,7]{label=$\triangleright$}
+\setlist[itemize,8]{label=$\star$}
+\setlist[itemize,9]{label=$\bullet$}
+
+% ==========================================
+% 2. DISEÑO Y COLORES DEDICADOS
+% ==========================================
+\usepackage{sectsty}
+\usepackage{hyperref}
+
+% Aplicar el color dinámico (colorLibro) inyectado desde Quarto a los títulos
+\chapterfont{\color{colorLibro}}
+\sectionfont{\color{colorLibro}}
+\subsectionfont{\color{colorLibro}}
+
+% Configurar hipervínculos con el color del libro
+\hypersetup{
+    colorlinks=true,
+    linkcolor=colorLibro,
+    filecolor=colorLibro,      
+    urlcolor=colorLibro,
+    citecolor=colorLibro
+}

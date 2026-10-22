@@ -1,0 +1,21 @@
+/* Importar tipografías libres */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Sobrescribir variables base de Quarto/Bootstrap */
+$font-family-base: 'Lora', serif !default;
+$headings-font-family: 'Inter', sans-serif !default;
+
+/* Estilos extra para unificar con el Look & Feel del index */
+body {
+  background-color: #F7FAFC; /* Fondo muy suave */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary; /* Usa el color que le pasemos desde cada libro */
+  font-weight: 700;
+}
+
+.sidebar nav[role="doc-toc"] ul li > a.active {
+  border-left-color: $primary;
+  color: $primary;
+}

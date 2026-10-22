@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:ital,wght@0,400;1,400&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-libro); /* Lo pasaremos por el YAML */
+}
+
+a {
+    color: var(--color-libro);
+    text-decoration: none;
+}
