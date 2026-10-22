@@ -18,7 +18,7 @@ Reconocimientos de créditos aceptados, informados por antiguos alumnos:
 | - | - | - |
 | UNED | [MUICD](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/) | [Aprendizaje Automático I](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110037&codTitulacion=311001&idContenido=1) + [Aprendizaje Automático II](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110130&codTitulacion=311001&idContenido=1) + [Deep Learning](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110111&codTitulacion=311001&idContenido=1) |
 
-Para el máster MUICD, haber cursado Aprendizaje Automático II exime de realizar las PECs 2 "Evaluación de relevancia de variables" y 4 "Random Forests", y adicionalmente la optativa Deep Learning exime de realizar el resto de PECs (1 "Evaluación y selección de modelos" y 3 "Redes convolucionales").
+Para el máster MUTL, haber cursado Aprendizaje Automático II exime de realizar las PECs 2 "Evaluación de relevancia de variables" y 4 "Random Forests", y adicionalmente la optativa Deep Learning exime de realizar el resto de PECs (1 "Evaluación y selección de modelos" y 3 "Redes convolucionales").
 
 ## Evaluación
 

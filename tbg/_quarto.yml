@@ -21,6 +21,10 @@ book:
   sidebar:
     style: "docked"
     search: true
+    tools:
+    - icon: house
+      href: https://pmgallardo.github.io/apuntes-mutl-uned
+      text: "Web principal"
     
   chapters:
     - index.qmd
