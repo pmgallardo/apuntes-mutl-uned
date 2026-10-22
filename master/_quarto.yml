@@ -12,7 +12,7 @@ book:
   author: "Colaboradores de apuntes-mutl-uned"
   date: today
   language: es
-  output-file: "mutl"
+  output-file: "master"
   downloads: [pdf, epub]
   
   site-url: https://pmgallardo.github.io/apuntes-mutl-uned/master
@@ -32,33 +32,27 @@ lang: es
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - default
+      - ../_assets/base_html.scss
+      - color.scss
     toc: true
     toc-depth: 4
     toc-location: right-body
-    number-sections: true
   pdf:
-    documentclass: scrreprt
     pdf-engine: lualatex
-
-    mainfont: "Source Sans 3"
-    sansfont: "Source Sans 3"
-    monofont: "Source Code Pro"
-
-    fontsize: 11pt
-    linestretch: 1.15
-
-    papersize: a4
-
-    geometry:
-      - top=25mm
-      - bottom=25mm
-      - left=27mm
-      - right=25mm
-
+    variables:
+      colorlinks: true
+      linkcolor: colorLibro
+      urlcolor: colorLibro
+      filecolor: colorLibro
+      citecolor: colorLibro
+    include-in-header:
+      - text: |
+          \usepackage{xcolor}
+          \definecolor{colorLibro}{HTML}{7B241C}
+      - ../_assets/base_pdf.tex
     toc: true
     toc-depth: 4
-    number-sections: true
-  epub: default
-
+  epub:
+    css: color.css
