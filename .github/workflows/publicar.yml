@@ -36,20 +36,75 @@ jobs:
           quarto render aii
           cp -r aii/_book _site/aii
 
-      - name: Renderizar y copiar ipnl
-        run: |
-          quarto render ipnl
-          cp -r ipnl/_book _site/ipnl
-
       - name: Renderizar y copiar at
         run: |
           quarto render at
           cp -r at/_book _site/at
 
+      - name: Renderizar y copiar fpl
+        run: |
+          quarto render fpl
+          cp -r fpl/_book _site/fpl
+
+      - name: Renderizar y copiar ipnl
+        run: |
+          quarto render ipnl
+          cp -r ipnl/_book _site/ipnl
+
+      - name: Renderizar y copiar master
+        run: |
+          quarto render master
+          cp -r master/_book _site/master
+
+      - name: Renderizar y copiar mb
+        run: |
+          quarto render mb
+          cp -r mb/_book _site/mb
+          
+      - name: Renderizar y copiar md
+        run: |
+          quarto render md
+          cp -r md/_book _site/md
+
+      - name: Renderizar y copiar md
+        run: |
+          quarto render md
+          cp -r md/_book _site/md
+
+      - name: Renderizar y copiar mp
+        run: |
+          quarto render mp
+          cp -r mp/_book _site/mp
+
+      - name: Renderizar y copiar ms
+        run: |
+          quarto render ms
+          cp -r ms/_book _site/ms
+
+      - name: Renderizar y copiar rn
+        run: |
+          quarto render rn
+          cp -r rn/_book _site/rn
+
+      - name: Renderizar y copiar rt
+        run: |
+          quarto render rt
+          cp -r rt/_book _site/rt
+
       - name: Renderizar y copiar sp
         run: |
           quarto render sp
           cp -r sp/_book _site/sp
+
+      - name: Renderizar y copiar tbg
+        run: |
+          quarto render tbg
+          cp -r tbg/_book _site/tbg
+
+      - name: Renderizar y copiar tfm
+        run: |
+          quarto render tfm
+          cp -r tfm/_book _site/tfm
 
       # Repite el bloque anterior para cada asignatura adicional
 
