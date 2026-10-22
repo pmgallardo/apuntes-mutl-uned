@@ -12,8 +12,8 @@ book:
   author: "Colaboradores de apuntes-mutl-uned"
   date: today
   language: es
-  favicon: images/favicon.png
-  
+  downloads: [pdf, epub]
+  output-file: "tbg"
   site-url: https://pmgallardo.github.io/apuntes-mutl-uned/tbg
   repo-url: https://github.com/pmgallardo/apuntes-mutl-uned/tbg
   repo-actions: [edit, issue, source]
@@ -29,43 +29,27 @@ lang: es
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      - default
+      - ../_assets/base_html.scss
+      - color.scss
     toc: true
     toc-depth: 4
     toc-location: right-body
-    number-sections: true
   pdf:
-    documentclass: scrreprt
     pdf-engine: lualatex
-
-    mainfont: "Source Sans 3"
-    sansfont: "Source Sans 3"
-    monofont: "Source Code Pro"
-
-    fontsize: 11pt
-    linestretch: 1.15
-
-    papersize: a4
-
-    geometry:
-      - top=25mm
-      - bottom=25mm
-      - left=27mm
-      - right=25mm
-
+    variables:
+      colorlinks: true
+      linkcolor: colorLibro
+      urlcolor: colorLibro
+      filecolor: colorLibro
+      citecolor: colorLibro
+    include-in-header:
+      - text: |
+          \usepackage{xcolor}
+          \definecolor{colorLibro}{HTML}{BA4A00}
+      - ../_assets/base_pdf.tex
     toc: true
     toc-depth: 4
-    number-sections: true
-
-    colorlinks: true
-    linkcolor: agebluelink
-    urlcolor: agebluelink
-    citecolor: agebluelink
-    toccolor: agebluelink
-
-    code-block-bg: "#f7f9fc"
-    code-block-border-left: "#003399"
-
-    include-in-header:
-      - latex/preamble.tex
+  epub:
+    css: color.css
