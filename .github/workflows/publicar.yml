@@ -66,15 +66,15 @@ jobs:
           quarto render md
           cp -r md/_book _site/md
 
-      - name: Renderizar y copiar md
-        run: |
-          quarto render md
-          cp -r md/_book _site/md
-
       - name: Renderizar y copiar mp
         run: |
           quarto render mp
           cp -r mp/_book _site/mp
+
+      - name: Renderizar y copiar mt
+        run: |
+          quarto render mt
+          cp -r mt/_book _site/mt
 
       - name: Renderizar y copiar ms
         run: |
