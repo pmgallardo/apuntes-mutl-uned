@@ -4,56 +4,9 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción {.unnumbered}
+# Presentación {.unnumbered}
 
-Código: 3110131-
-[Enlace](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=3110131-&codTitulacion=310701&idContenido=1)
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Semántica y Pragmática en la Web** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/sp/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/sp/sp.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/sp/sp.epub) (ebook).
 
-## Opiniones de alumnos
-
-Ordenadas de más recientes a más antiguas:
-
-- J.: *contenido obsoleto, equipo docente desaparecido, aislada del resto de materias, en fin.... Ojo, como dijo alguien el año pasado: son 6 créditos trabajando para 1*.
-
-- A.: *semántica, [la debes pillar] si quieres conseguir 6 créditos trabajando 1*.
-
-## Evaluación
-
-| Tarea | Porc. |
-| - | - |
-| PEC1 | 15 |
-| PEC2 | 15 |
-| PEC3T1 | 15 |
-| PEC3T2 | 15 |
-| PEC3T3 | 15 |
-| PEC4 | 15 |
-| Participación | 10 |
-
-Todas las PEC puntúan lo mismo, y suponen el 90% de la puntuación de la asignatura.
-
-Al menos en los cursos 2026/2027 y 2025/2026 todas sus entregas fueron en junio.
-
-## Bibliografía
-
-- Básica
-  - Material ofrecido por el personal docente.
-- Complementaria
-  - Chiarcos, C. (2013, September). Linguistic Linked Open Data (LLOD)–Building the cloud. In Joint Workshop on NLP&LOD and SWAIE: Semantic Web, Linked Open Data and Information Extraction (p. 1).
-  - Daniel Jurafsky and James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics and Speech Recognition, (3rd ed. draft online) 2023.
-  - “Lenguas y computación” Moreno Sandoval, Antonio. ISBN: 9788491712732. Páginas 288. ISBN Digital: 9788491718246. Editorial Síntesis. Publicado 07.03.2019.
-  - Allen, J.F. Natural Language Understanding, Benjamin Cummings, 1987, Second Edition, 1994, ISBN: 0-8053-0335-9
-  - Chiarcos, C., Hellmann, S., & Nordhoff, S. (2011). Towards a Linguistic Linked Open Data cloud: The Open Linguistics Working Group. TAL, 52(3), 245-275.
-  - Verdejo, F. y García Serrano A. (Editoras), Acceso y visibilidad de la información en la red: el rol de la semántica 2009, UNED (libro electrónico)
-
-## Temario
-
-1. Introducción
-2. Modelado de información y conocimiento con ontologías
-3. La web de los datos
-4. Pragmática y praxis
-
-## Comunidades
-
-- Activas
-    - Grupo [Semántica](https://t.me/+J8_Y3SMC2nljMGVk) en Telegram
+{{< include ../master/_index.qmd >}}
 

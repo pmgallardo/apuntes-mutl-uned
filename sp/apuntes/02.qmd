@@ -6,5 +6,68 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 2. Modelado de información y conocimiento con ontologías
 
-Tema 2 "Modelado de información y conocimiento con ontologías".
+## ¿Qué es una ontología?
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- Nicola Guarino, Daniel Oberle, Steffen Staab. What is an ontology?
+- [ASWT] Capítulo 2.
+:::
+
+::: {.callout-note}
+### 📝PEC
+
+Este tema está relacionado con la PEC 2.
+:::
+
+### Ontologías y Conceptos Relacionados
+
+### Origen y definición
+
+### Componentes de una ontología
+
+### Importancia de las ontologías
+
+### OWL y RDF en ontologías
+
+### Aplicaciones de las ontologías
+
+## Estándares semánticos
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- [SWWO2] Capítulo 3 "RDF—The basis of the Semantic Web".
+- [SWWO2] Capítulo 4 "Semantic Web application architecture"
+:::
+
+## Acceso a la información
+
+Este apartado trata sobre el acceso a la información con SPARQL y Procesos de Inferencia.
+
+### SPARQL: Extracción de información
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- [SWWO2] Capítulo 5 "Querying the Semantic Web—SPARQL".
+:::
+
+### OWL: Procesos de Inferencia
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- [SWWO2] Capítulos 6 "RDF and inferencing" 7 "RDF schema ", 8 "RDFS-Plus", 11 "Basic OWL" y 12 "Counting and sets in OWL".
+- [SWWO3] Capítulos 7 "Extending RDF: RDFS and SCHACL", 8 "RDF schema", 9 "RDFS-Plus", 12 "Basic OWL", 13 "Counting and Sets in OWL"
+:::
+
+### Inferencias Automáticas en OWL
+
+## Bibliografía
+
+- Nicola Guarino, Daniel Oberle, Steffen Staab. What is an ontology?
+- [ASWT] [Applied Semantic Web Technologies](https://learning.oreilly.com/library/view/applied-semantic-web/9781439801574/).
+- [SWWO2] [Semantic Web for the Working Ontologist](https://learning.oreilly.com/library/view/semantic-web-for/9780123859655/), 2nd Ed.
 

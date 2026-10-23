@@ -6,5 +6,58 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Tema 4: Pragmática y praxis
 
-Pragmática y praxis.
+::: {.callout-note}
+### 📝PEC
+
+No parece que este tema esté asociado a ninguna PEC, y por tanto no es evaluado.
+:::
+
+Este tema se centra en el proyecto español Clara-NLP.
+
+## CLARA NLP
+
+En este apartado se estudia Clara-NLP y su aplicación en dominios específicos
+
+### Proyecto CLARA NLP: Un Enfoque Multidisciplinar
+
+### Ejemplos de Aplicación en Dominios Específicos
+
+#### Medicina
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- Básico
+  - [CMED]. Resumen y conclusiones del artículo.
+- Complementaria
+  - [ACTCAUE]
+:::
+
+#### Finanzas
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- Básico
+  - [CFIN]. Resumen y conclusiones del artículo.
+:::
+
+#### Humanidades Digitales
+
+::: {.callout-note collapse=true}
+## 📚Bibliografía
+
+- Básico
+  - [CHD]. Resumen y conclusiones de 2 artículos.
+:::
+
+### Herramientas y Recursos en CLARA NLP
+
+## Bibliografía
+
+- [CN] Proyecto [Clara NLP](http://xn--la%20simplificacin%20lingstica%20es%20una%20disciplina%20que%20se%20enfoca%20en%20el%20desarrollo%20de%20tcnicas%20para%20simplificar%20el%20lenguaje%20utilizado%20en%20textos%20complejos%20con%20el%20fin%20de%20hacerlos%20ms%20accesibles%20y%20comprensibles%20para%20una%20audiencia%20ms%20amplia-k1x1cz1lc6as5cfwe./)
+- [CFIN] [CLARA-FIN](https://clara-nlp.uned.es/home/fin/)
+- [CMED] [CLARA-MED](https://clara-nlp.uned.es/home/med/)
+- [CDH] [CLARA-DH](https://clara-nlp.uned.es/home/dh/)
+- [ACTCAUE] [A clinical trials corpus annotated with UMLS entities to enhance the access to evidence-based medicine](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01395-z)
 
