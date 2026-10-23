@@ -4,13 +4,9 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción {.unnumbered}
+# Presentación {.unnumbered}
 
-Este documento incluye **información de carácter general** sobre el Máster Universitario de Tecnologías del Lenguaje (MUTL) de la UNED.
+Te damos la bienvenida a los recursos de aprendizaje de carácter general para el máster **Máster Universitario en Tecnologías del Lenguaje** (MUTL) de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/master/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/master/master.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/master/master.epub) (ebook).
 
-Puedes encontrar información detallada **por asignatura** en la [página principal](../) del proyecto.
-
-Para cualquier **duda**, puedes consultar el grupo "[apuntes-mutl-uned](https://t.me/+1RJx_dxBqSRkMjQ8)" de Telegram.
-
-Si estás interesado en **colaborar** con el proyecto o proponer cambios, visita la sección "[Contribuciones](contribuciones.qmd)". 
+{{< include ../master/_index.qmd >}}
 

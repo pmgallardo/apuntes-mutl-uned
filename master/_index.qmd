@@ -1,0 +1,15 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+Esta documentación forma parte del proyecto [Apuntes MUTL UNED](https://pmgallardo.github.io/apuntes-mutl-uned), sin vinculación ni adscripción oficial con la UNED, y es construido gracias al contenido cedido de forma voluntaria por los colaboradores.
+
+Si quieres **colaborar** corrigiendo o ampliando el material, visita la sección de [Contribuciones](anexos/contribuciones.qmd). Para cualquier **duda o comentario**, puedes unirte al grupo "[apuntes-mutl-uned](https://t.me/+1RJx_dxBqSRkMjQ8){target="_blank"}" de Telegram.
+
+| Apuntes MUICD UNED | URL |
+| - | - |
+| Web principal | [pmgallardo.github.io/apuntes-muicd-uned](https://pmgallardo.github.io/apuntes-mutl-uned){target="_blank"} |
+| Repositorio GitHub | [github.com/pmgallardo/apuntes-mutl-uned](https://github.com/pmgallardo/apuntes-mutl-uned){target="_blank"} |
+
