@@ -1,0 +1,28 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Información general
+
+Nombre asignatura: Minería de textos
+
+## Opiniones de antiguos alumnos
+
+- J.: *un poco más rígido el planteamiento pero interesante e informativa. Puede ser redundante (o, visto al revés, sinérgica) con [fundamentos](../fpl/) y [representación](/../rt/)*.
+
+- M.: *Tostón todo en general, pero está bien*.
+
+## Reconocimiento de créditos
+
+Reconocimientos de créditos aceptados para la asignatura, informados por antiguos alumnos:
+
+| Universidad | Título | Asignatura/s convalidada/s |
+| - | - | - |
+| UNED | [MUICD](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/) | [Minería de textos](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110041&codTitulacion=311001&idContenido=1) |
+
+## Comunidades
+
+- Activas
+    - Grupo [Mineria de textos](https://t.me/+Bm7ih8SbAh4zOWRk) en Telegram

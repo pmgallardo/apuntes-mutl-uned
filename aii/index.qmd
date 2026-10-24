@@ -4,20 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Presentación
 
-## Opiniones
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Acceso Inteligente a la Información** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/at/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/aii/aii.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/aii/aii.epub) (ebook).
 
-- P.: *Yo cursé acceso inteligente a la información el año pasado [curso 2024/2025], y si no cambió este año, huye de ella. Mucha carga de trabajo, profesores totalmente ausentes y poco interesante. Aunque en el plan de estudios parezca interesante, la asignatura se resume en leer paper bastante antiguos y desfasados y luego hacer trabajos basados en ellos. O mucho cambió este año, o de lo peor que hay en el máster*.
-
-- C.: *No cojas esa asignatura, está desfasada y además no se aprende nada. Si puedes cambiarte... casi que cualquier otra asignatura es mejor*.
-
-- M.: *Y acceso inteligente a la info, personalmente [me parece] deplorable*.
-
-- A.: *Esta es de leer muchísimo, resumir y sintetizar. En mi opinión, si te gusta el tema aprendes muchísimo y viene bien para saber qué problemas se intentan resolver en cuanto al texto. Te da una visión de los problemas que hay cuando trabajas con información textual. No tiene prácticas de picar código (el año que la cursé, que fue… 2021). Aprendí mucho. Los tutores responden y las correcciones son buenas porque te dan consejos sobre cómo escribir artículos y sobre qué cosas te faltan a explicar en los resúmenes*.
-
-## Comunidades
-
-- Activas
-    - Grupo [Acceso inteligente a la información // UNED](https://t.me/+oxO4_3NLBZYzZmE0) en Telegram
-
+{{< include ../master/_index.qmd >}}

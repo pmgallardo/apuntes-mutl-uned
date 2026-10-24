@@ -4,26 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Presentación
 
-Nombre asignatura: Minería de textos
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Minería de Textos** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/mt/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/mt/mt.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/mt/mt.epub) (ebook).
 
-## Opiniones de antiguos alumnos
-
-- J.: *un poco más rígido el planteamiento pero interesante e informativa. Puede ser redundante (o, visto al revés, sinérgica) con fundamentos y representación*.
-
-- M.: *Tostón todo en general, pero está bien*.
-
-## Reconocimiento de créditos
-
-Reconocimientos de créditos aceptados para la asignatura, informados por antiguos alumnos:
-
-| Universidad | Título | Asignatura/s convalidada/s |
-| - | - | - |
-| UNED | [MUICD](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/) | [Minería de textos](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110041&codTitulacion=311001&idContenido=1) |
-
-## Comunidades
-
-- Activas
-    - Grupo [Mineria de textos](https://t.me/+Bm7ih8SbAh4zOWRk) en Telegram
-
+{{< include ../master/_index.qmd >}}

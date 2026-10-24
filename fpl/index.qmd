@@ -6,16 +6,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Introducción
 
-## Opiniones de antiguos alumnos
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Fundamentos del Procesamiento Lingüistico** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/fpl/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/fpl/fpl.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/fpl/fpl.epub) (ebook).
 
-- S.: *Profesores muy atentos y comprensivos. Prácticas no muy complicadas y evalúan favorablemente*.
-
-- J.: *básica si no se tiene una base de lingüística computacional/NLP. También está un poco basada en tecnologías de hace unos años (usan mucho CoreNLP), pero los fundamentos son eso, fundamentos, fácilmente trasladables a entornos más actuales. Bien organizada, documentada y con soporte de los profesores. Te va a venir bien para todas [las asignaturas]*.
-
-- M.: *bien, aunque poco feedback*.
-
-## Comunidades
-
-- Activas
-    - [Fundamentos del Procesamiento Lingüistico](https://t.me/+IvNl6NMel98wYTA0) en Telegram
-
+{{< include ../master/_index.qmd >}}

@@ -1,0 +1,27 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Información general
+
+## Datos básicos
+
+Nombre: Motores de búsqueda
+
+## Opiniones de antiguos alumnos
+
+De más reciente a más antiguo:
+
+- P.: *puta mierda de asignatura, al menos el año pasado. Acabarás leyendo papers de hace 30 años, y haciendo trabajos que no sirven para nada, que no se pueden reproducir y estudiando cosas de hace 30 años. La web no funciona así ya. El profesor pasa de todo, no contesta a correos, ni foro, no da feedback en las prácticas (al menos a mí, no debo generalizar :P ), solo en la final y es ridículo...*.
+
+- L.: *Yo no sé por donde pillarla y el contenido es el año de la tos*.
+
+- M.: *Y motores de búsqueda [también es para huir]*.
+
+## Comunidades
+
+- Activas
+    - Canal [Motores de búsqueda](https://t.me/+J_Lj1qFbElwwN2U1) en Telegram.
+

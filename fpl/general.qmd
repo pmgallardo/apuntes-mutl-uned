@@ -1,0 +1,24 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Información general
+
+## Datos básicos
+
+Nombre: Fundamentos del Procesamiento Lingüistico
+
+## Opiniones de antiguos alumnos
+
+- S.: *Profesores muy atentos y comprensivos. Prácticas no muy complicadas y evalúan favorablemente*.
+
+- J.: *básica si no se tiene una base de lingüística computacional/NLP. También está un poco basada en tecnologías de hace unos años (usan mucho CoreNLP), pero los fundamentos son eso, fundamentos, fácilmente trasladables a entornos más actuales. Bien organizada, documentada y con soporte de los profesores. Te va a venir bien para todas [las asignaturas]*.
+
+- M.: *bien, aunque poco feedback*.
+
+## Comunidades
+
+- Activas
+    - [Fundamentos del Procesamiento Lingüistico](https://t.me/+IvNl6NMel98wYTA0) en Telegram

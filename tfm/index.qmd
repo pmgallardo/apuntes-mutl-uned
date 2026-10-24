@@ -4,32 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Introducción {.unnumbered}
 
-Código: `31070046`
-Abreviatura: `tfm`
-Nombre: Trabajo fin de máster en tecnologías del lenguaje
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Trabajo fin de máster en tecnologías del lenguaje** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/ipnl/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/ipnl/ipnl.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/ipnl/ipnl.epub) (ebook).
 
-[Ficha oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31070046&codTitulacion=310701&idContenido=1)
-
-## Matrícula
-
-[Documento sobre Tutela Fin de Máster](https://www.uned.es/universidad/dam/facultades/informatica/documentos/tramites_administrativos_master/TUTELA-FIN-DE-MASTER.-INSTRUCCIONES.PDF)
-
-## Propuestas de proyectos
-
-[Propuestas de proyectos del equipo docente](https://www.uned.es/universidad/facultades/departamentos/lenguajes-y-sistemas-informaticos/docencia/M%C3%A1ster-Universitario-en-Tecnolog%C3%ADas-del-Lenguaje/L%C3%ADneas-de-Investigaci%C3%B3n-del-Trabajo-Fin-de-M%C3%A1ster.html)
-
-## Proyectos pasados
-
-[Trabajos Fin de Máster](https://nlpmaster.uned.es/trabajos.html) en la web del MUTL.
-
-## Defensa de proyectos
-
-La defensa de proyectos de la convocatoria de septiembre suele realizarse a medidados de octubre.
-
-## Comunidades
-
-- Activas
-    - Grupo [TFM Lenguajes](https://t.me/+LflTWXrRC604MjVk) en Telegram
-
+{{< include ../master/_index.qmd >}}

@@ -1,0 +1,23 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Información general
+
+Código: `31101305`
+Abreviatura `tbg`
+Nombre: Técnicas basadas en grafos aplicados al procesamiento del lenguaje
+
+[Ficha oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31101305&codTitulacion=310701&idContenido=11)
+
+## Bibliografía
+
+- Básica
+    - Dragomir Radev; Rada Mihalcea. [Graph-based Natural Language Processing And Information Retrieval](https://doi.org/10.1017/CBO9780511976247). 1.ª ed. ISBN 9780521896139. Cambridge University Press, 2011.
+
+## Comunidades
+
+- Activas
+    - Grupo [Grafos en PLN // UNED](https://t.me/+X9OKNYRtF3g2YTNi) en Telegram
