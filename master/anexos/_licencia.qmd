@@ -8,7 +8,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Este trabajo está licenciado bajo la licencia **[Creative Commons Atribución 4.0 Internacional][cc-by]**.
 
-© 2026, Colaboradores de [apuntes-muicd-uned](https://github.com/pmgallardo/apuntes-muicd-uned).
+© 2026, Colaboradores de [apuntes-mutl-uned](https://github.com/pmgallardo/apuntes-mutl-uned).
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.png

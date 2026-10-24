@@ -10,6 +10,6 @@ Si quieres **colaborar** corrigiendo o ampliando el material, visita la sección
 
 | Apuntes MUICD UNED | URL |
 | - | - |
-| Web principal | [pmgallardo.github.io/apuntes-muicd-uned](https://pmgallardo.github.io/apuntes-mutl-uned){target="_blank"} |
+| Web principal | [pmgallardo.github.io/apuntes-mutl-uned](https://pmgallardo.github.io/apuntes-mutl-uned){target="_blank"} |
 | Repositorio GitHub | [github.com/pmgallardo/apuntes-mutl-uned](https://github.com/pmgallardo/apuntes-mutl-uned){target="_blank"} |
 

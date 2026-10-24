@@ -6,5 +6,5 @@ SPDX-License-Identifier: CC-BY-4.0
 
 # Contribuciones {.unnumbered}
 
-{{< include ../../master/_contribuciones.qmd >}}
+{{< include ../../master/anexos/_contribuciones.qmd >}}
 
