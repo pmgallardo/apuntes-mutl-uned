@@ -14,7 +14,7 @@ SPDX-License-Identifier: CC-BY-4.0
 ## ¿Qué es la web semántica?
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 - Básica
   - [@wiki_websemantica]
@@ -57,7 +57,7 @@ Este apartado está relacionado con la tarea 3 de la PEC 3.
 ### Fundamentos del Análisis de Conceptos Formales (FCA)
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 - Básica
   -  [@cigarran2008]
@@ -69,7 +69,7 @@ Este apartado está relacionado con la tarea 3 de la PEC 3.
 ### Aplicación del FCA en Ontologías
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 * Básica
   *  [@priss1998]
@@ -92,7 +92,7 @@ En este apartado se estudia la herramienta Concept Explorer, disponible en <http
 #### AIViz
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 - Complementaria
   - [ASWT] Capítulo 4 "[AlViz: A Tool for Ontology Alignment Utilizing Information Visualization Techniques](https://www.oreilly.com/library/view/applied-semantic-web/9781439801574/chapter-25.html)"

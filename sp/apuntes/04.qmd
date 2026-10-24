@@ -30,7 +30,7 @@ En este apartado se estudia Clara-NLP y su aplicación en dominios específicos
 #### Medicina
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 * Básico
   * [@clara_med]
@@ -47,7 +47,7 @@ En este apartado se estudia Clara-NLP y su aplicación en dominios específicos
 #### Finanzas
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 * Básico
   * [@clara_fin]
@@ -60,7 +60,7 @@ En este apartado se estudia Clara-NLP y su aplicación en dominios específicos
 #### Humanidades Digitales
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 
 * Básico
   * [@clara_dh]

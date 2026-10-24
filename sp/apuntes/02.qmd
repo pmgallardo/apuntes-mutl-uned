@@ -14,7 +14,7 @@ SPDX-License-Identifier: CC-BY-4.0
 ## ¿Qué es una ontología?
 
 ::: {.callout-note collapse=false}
-## 📚Material asociado
+## 📖Material asociado
 
 * [@guarino2009ontology]
 * [@sugumaran2011, ch. 2]
@@ -45,9 +45,9 @@ Este tema está relacionado con la PEC 2.
 ## Estándares semánticos
 
 ::: {.callout-note collapse=false}
-## 📚Material asociado
+## 📖Material asociado
 
-* [@allemang2012, chs. 3 and 4]
+* [@allemang2011, chs. 3 and 4]
 * [@allemang2020, chs. 3 and 4]
 :::
 <!--
@@ -62,7 +62,7 @@ Este apartado trata sobre el acceso a la información con SPARQL y Procesos de I
 ### SPARQL: Extracción de información
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 * [@allemang2011, ch. 5]
 * [@allemang2020, ch. 6]
 :::
@@ -73,7 +73,7 @@ Este apartado trata sobre el acceso a la información con SPARQL y Procesos de I
 ### OWL: Procesos de Inferencia
 
 ::: {.callout-note collapse=true}
-## 📚Material asociado
+## 📖Material asociado
 * [@allemang2011, chs. 6, 7, 8, 11 and 12]
 * [@allemang2020, ch. 7, 8, 9, 12 and 13]
 :::
