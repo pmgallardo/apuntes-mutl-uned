@@ -14,7 +14,7 @@ SPDX-License-Identifier: MIT
 
 ### 1.1.1 Visión general del recorrido de la asignatura
 
-::: {.callout-note collapse=true}
+::: {.callout-note collapse=false}
 ## 📖Material asociado
 * [@uned_intro_pln]
 :::
