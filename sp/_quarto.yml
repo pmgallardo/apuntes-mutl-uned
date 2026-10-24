@@ -35,6 +35,10 @@ book:
       - apuntes/02.qmd
       - apuntes/03.qmd
       - apuntes/04.qmd
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
 
 lang: es
 
@@ -46,7 +50,7 @@ format:
       - color.scss
     toc: true
     toc-depth: 4
-    toc-location: right-body
+    toc-location: right
   pdf:
     pdf-engine: lualatex
     variables:

@@ -1,0 +1,11 @@
+---
+title: "Contribuciones"
+---
+
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: MIT
+-->
+
+{{< include ../../master/anexos/_contribuciones.qmd >}}

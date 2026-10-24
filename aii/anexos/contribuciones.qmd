@@ -8,5 +8,5 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: MIT
 -->
 
-{{< include ../master/_contribuciones.qmd >}}
+{{< include ../../master/anexos/_contribuciones.qmd >}}
 

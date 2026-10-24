@@ -42,7 +42,7 @@ format:
       - color.scss
     toc: true
     toc-depth: 4
-    toc-location: right-body
+    toc-location: right
   pdf:
     pdf-engine: lualatex
     variables:
