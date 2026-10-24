@@ -1,3 +1,8 @@
+---
+title: "Tema 1: Introducción"
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
@@ -7,11 +12,15 @@ SPDX-License-Identifier: CC-BY-4.0
 # Tema 1: Introducción
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
+## 📚Material asociado
 
+* [@jurafsky2009, ch. 1]
+* [@jurafsky2012nlp]
+:::
+<!--
 - [SLP2]. Capítulo 1 "Introducción"
 - Vídeo [INLP]
-:::
+-->
 
 ::: {.callout-note}
 ### 📝PEC
@@ -37,8 +46,10 @@ La PEC 1 consiste en revisar una sere de fuentes para identificar tareas de inte
 - [Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2021)](https://sites.google.com/view/iberlef2021/home)
 - [Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022)](https://sites.google.com/view/iberlef2022/home)
 
-## Bibliografía
+## Referencias
 
+<!--
 - [INLP] Dan Jurafsky, Chris Manning. Vídeo [Intro to NLP](https://www.youtube.com/watch?v=zQ6gzQ5YZ8o). Stanford Online at YouTube, 15/10/2012.
 - [SLP2] Daniel Jurafsky, James H. Martin. [Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition](http://www.cs.colorado.edu/~martin/slp2.html). 2.a ed. Pearson Prentice Hall, 2009.
+-->
 

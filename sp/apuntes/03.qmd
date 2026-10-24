@@ -1,3 +1,8 @@
+---
+bibliography: ../referencias.bib
+lang: es-ES
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
@@ -9,14 +14,21 @@ SPDX-License-Identifier: CC-BY-4.0
 ## ¿Qué es la web semántica?
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
+## 📚Material asociado
 
+- Básica
+  - [@wiki_websemantica]
+  - [@w3c_espana]
+- Complementaria
+  - [@sugumaran2011, ch. 1]
+:::
+<!--
 - Básica
   - [WS]
   - [OEW3C]
 - Complementaria
   - [ASWT] Capítulo 1
-:::
+-->
 
 ::: {.callout-note}
 ### 📝PECs
@@ -45,20 +57,27 @@ Este apartado está relacionado con la tarea 3 de la PEC 3.
 ### Fundamentos del Análisis de Conceptos Formales (FCA)
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
+## 📚Material asociado
 
 - Básica
-  -  [ORBMAFC]
+  -  [@cigarran2008]
 :::
+<!--
+  -  [ORBMAFC]
+-->
 
 ### Aplicación del FCA en Ontologías
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
+## 📚Material asociado
 
-- Básica
-  -  [TFWNMR]
+* Básica
+  *  [@priss1998]
 :::
+<!--
+[TFWNMR]
+-->
+
 
 En el artículo [TFWNMR] se presenta una aplicación de FCA.
 
@@ -73,7 +92,7 @@ En este apartado se estudia la herramienta Concept Explorer, disponible en <http
 #### AIViz
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
+## 📚Material asociado
 
 - Complementaria
   - [ASWT] Capítulo 4 "[AlViz: A Tool for Ontology Alignment Utilizing Information Visualization Techniques](https://www.oreilly.com/library/view/applied-semantic-web/9781439801574/chapter-25.html)"
@@ -81,12 +100,13 @@ En este apartado se estudia la herramienta Concept Explorer, disponible en <http
 
 En este apartado se estudia la herramienta AIViz.
 
-## Bibliografía
+## Referencias
 
+<!--
 - [WS] [Web semántica](https://es.wikipedia.org/wiki/Web_sem%C3%A1ntica). Wikipedia.
 - [OEW3C] [Oficina Española del W3C](https://www.w3c.es/Consorcio/)
 - [ASWT] [Applied Semantic Web Technologies](https://learning.oreilly.com/library/view/applied-semantic-web/9781439801574/)
 - [ORBMAFC] Juan Manuel Cigarrán Recuero. Tesis doctoral [Organización de resultados de búsqueda mediante análisis formal de conceptos](https://e-spacio.uned.es/entities/publication/cb71bb21-78db-42dc-a700-fee1d03facbb). Espacio UNED, 2008
 - [TFWNMR] Uta E. Priss. [The Formalization of WordNet by Methods of Relational Concept Analysis](https://www.upriss.org.uk/papers/mitpaper.pdf).
-
+-->
 

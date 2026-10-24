@@ -1,3 +1,8 @@
+---
+bibliography: ../referencias.bib
+lang: es-ES
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
@@ -8,12 +13,16 @@ SPDX-License-Identifier: CC-BY-4.0
 
 ## ¿Qué es una ontología?
 
-::: {.callout-note collapse=true}
-## 📚Bibliografía
+::: {.callout-note collapse=false}
+## 📚Material asociado
 
+* [@guarino2009ontology]
+* [@sugumaran2011, ch. 2]
+:::
+<!--
 - Nicola Guarino, Daniel Oberle, Steffen Staab. What is an ontology?
 - [ASWT] Capítulo 2.
-:::
+-->
 
 ::: {.callout-note}
 ### 📝PEC
@@ -35,12 +44,16 @@ Este tema está relacionado con la PEC 2.
 
 ## Estándares semánticos
 
-::: {.callout-note collapse=true}
-## 📚Bibliografía
+::: {.callout-note collapse=false}
+## 📚Material asociado
 
+* [@allemang2012, chs. 3 and 4]
+* [@allemang2020, chs. 3 and 4]
+:::
+<!--
 - [SWWO2] Capítulo 3 "RDF—The basis of the Semantic Web".
 - [SWWO2] Capítulo 4 "Semantic Web application architecture"
-:::
+-->
 
 ## Acceso a la información
 
@@ -49,19 +62,25 @@ Este apartado trata sobre el acceso a la información con SPARQL y Procesos de I
 ### SPARQL: Extracción de información
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
-
-- [SWWO2] Capítulo 5 "Querying the Semantic Web—SPARQL".
+## 📚Material asociado
+* [@allemang2011, ch. 5]
+* [@allemang2020, ch. 6]
 :::
+<!--
+- [SWWO2] Capítulo 5 "Querying the Semantic Web—SPARQL".
+-->
 
 ### OWL: Procesos de Inferencia
 
 ::: {.callout-note collapse=true}
-## 📚Bibliografía
-
+## 📚Material asociado
+* [@allemang2011, chs. 6, 7, 8, 11 and 12]
+* [@allemang2020, ch. 7, 8, 9, 12 and 13]
+:::
+<!--
 - [SWWO2] Capítulos 6 "RDF and inferencing" 7 "RDF schema ", 8 "RDFS-Plus", 11 "Basic OWL" y 12 "Counting and sets in OWL".
 - [SWWO3] Capítulos 7 "Extending RDF: RDFS and SCHACL", 8 "RDF schema", 9 "RDFS-Plus", 12 "Basic OWL", 13 "Counting and Sets in OWL"
-:::
+-->
 
 ### Inferencias Automáticas en OWL
 
