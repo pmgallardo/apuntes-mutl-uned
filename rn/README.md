@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2026 Colaboradores de apuntes_mutl_uned
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
