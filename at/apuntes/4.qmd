@@ -1,0 +1,7 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: MIT
+-->
+
+# Tema 4: Aplicaciones y temas candentes en Procesamiento del Lenguaje Natural

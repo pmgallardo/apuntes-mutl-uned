@@ -30,6 +30,13 @@ book:
   chapters:
     - index.qmd
     - general.qmd
+    - part: "Apuntes"
+      chapters:
+      - apuntes/estructura.qmd
+      - apuntes/1.qmd
+      - apuntes/2.qmd
+      - apuntes/3.qmd
+      - apuntes/4.qmd
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd

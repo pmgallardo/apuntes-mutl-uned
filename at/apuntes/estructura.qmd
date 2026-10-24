@@ -1,0 +1,28 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: MIT
+-->
+
+# Estructura de la asignatura
+
+* Tema 1: Aplicaciones clásicas en Procesamiento del Lenguaje Natural. La era pre-deep learning. 
+  * 1.1 Introducción al Procesamiento del Lenguaje Natural en la era pre-deep learning: paradigmas simbólico y estadístico.
+  * 1.2 Aplicaciones
+    * 1.2.1 Ejemplo 1: Reconocimiento de Entidades Nombradas (Named Entity Recognition, NER) 
+    * 1.2.2 Ejemplo 2: Análisis de Sentimientos (Sentiment Analysis)
+    * EVALUACIÓN: Tarea con cuestiones de carácter teórico.
+* Tema 2: Aplicaciones basadas en modelos pre-entrenados y fine-tuning
+  * 2.1 Introducción al fine-tuning de los Modelos de Lenguaje Preentrenados. 
+  * 2.2 Aplicaciones: 
+    * 2.2.1 Ejemplo 1: Reconocimiento de Entidades Nombradas (Named Entity Recognition, NER) 
+    * 2.2.2 Ejemplo 2: Análisis de Sentimientos (Sentiment Analysis)
+    * EVALUACIÓN: Tarea de carácter práctico correspondiente a los temas 1 y 2.
+* Tema 3: Aplicaciones basadas en *prompting* para modelos de IA generativa 
+  * 3.1 Introducción al prompting para modelos de IA generativa. 
+  * 3.2 Aplicaciones: 
+    * 3.2.1 Ejemplo 1: Reconocimiento de Entidades Nombradas (Named Entity Recognition, NER) 
+    * 3.2.2 Ejemplo 2: Análisis de Sentimientos (Sentiment Analysis)
+  * EVALUACIÓN: Tarea de carácter práctico correspondiente al tema 3.
+* Tema 4: Aplicaciones y temas candentes en Procesamiento del Lenguaje Natural.
+  * EVALUACIÓN: Tarea con cuestiones de carácter teórico.

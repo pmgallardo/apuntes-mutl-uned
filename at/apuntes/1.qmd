@@ -1,0 +1,59 @@
+---
+bibliography: ../referencias.bib
+---
+
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: MIT
+-->
+
+# Tema 1: Aplicaciones clásicas en Procesamiento del Lenguaje Natural. La era pre-deep learning
+
+## 1.1 Introducción al Procesamiento del Lenguaje Natural en la era pre-deep learning: paradigmas simbólico y estadístico
+
+### 1.1.1 Visión general del recorrido de la asignatura
+
+::: {.callout-note collapse=true}
+## 📖Material asociado
+* [@uned_intro_pln]
+:::
+
+### 1.1.2 Fundamentos del paradigma simbólico
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@bird2009, ch. 8, sec. 1, 2 and 3.1]
+:::
+
+### 1.1.3 Fundamentos del paradigma estadístico
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@bird2009, ch. 6, sec. intro, 1.2 and 3]
+:::
+
+### 1.1.4 Modelos estadísticos del lenguaje: n-gramas
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@jurafsky2009, ch. 3, sec. intro, 3.1 and 3.1.2]
+:::
+
+## 1.2 Aplicaciones
+
+### 1.2.1 Ejemplo 1: Reconocimiento de Entidades Nombradas (Named Entity Recognition, NER) 
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@uned_presentacion_ner]
+:::
+
+### 1.2.2 Ejemplo 2: Análisis de Sentimientos (Sentiment Analysis)
+
+::: {.callout-note collapse=false}
+* [@uned_presentacion_sa]
+
+## EVALUACIÓN: Tarea con cuestiones de carácter teórico.
+
+## Bibliografía

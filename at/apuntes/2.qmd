@@ -1,0 +1,17 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: MIT
+-->
+
+# Tema 2:
+
+## 2.1 Introducción al fine-tuning de los Modelos de Lenguaje Preentrenados. 
+
+## 2.2 Aplicaciones
+
+### 2.2.1 Ejemplo 1: Reconocimiento de Entidades Nombradas (Named Entity Recognition, NER) 
+
+### 2.2.2 Ejemplo 2: Análisis de Sentimientos (Sentiment Analysis)
+
+## EVALUACIÓN: Tarea de carácter práctico correspondiente a los temas 1 y 2.

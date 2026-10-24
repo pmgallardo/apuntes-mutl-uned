@@ -4,7 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Presentación
 
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Aplicaciones en Tecnologías del Lenguaje** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/at/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/at/at.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/at/at.epub) (ebook).
 
-
+{{< include ../master/_index.qmd >}}

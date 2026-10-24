@@ -4,10 +4,38 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: MIT
 -->
 
-Código: `31070069`  
-Nombre: Aplicaciones de tecnologías del lenguaje  
+# Información general
 
-[Guía oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31070069&codTitulacion=310701&idContenido=1)
+## Datos básicos
+
+| Clave | Valor |
+| - | - |
+| Código | `31070069` |
+| Nombre | Aplicaciones de tecnologías del lenguaje |
+| Tipo | Optativa |
+| Duración | Anual |
+| Créditos | 6 ECTS |
+| Horas total | 150 |
+| Horas de estudio teórico | 75 |
+| Horas de trabajo práctico | 75 |
+| Guía oficial de la asignatura | <https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31070069&codTitulacion=310701&idContenido=1> |
+
+## Dependencias asignaturas
+
+El profesorado de la asignatura afirma que la asignatura es independiente de las otras, si bien es beneficioso contar con el conocimiento de otras de ellas.
+
+```{mermaid}
+graph TD
+    RN[Redes neuronales para el PLN] -.-> AT[Aplicaciones de tecnologías del lenguaje]
+    FPL[Fundamentos de procesamiento lingüístico] -.-> AT
+
+    %% Enlaces a los nodos
+    click RN href "../rn/" _blank
+    click AT href "../at/" _blank
+    click FPL href "../fpl/" _blank
+```
+
+línea discontinua: beneficioso
 
 ## Opiniones de antiguos alumnos
 
@@ -17,7 +45,16 @@ Nombre: Aplicaciones de tecnologías del lenguaje
 
 ## Evaluación
 
-Entregas todas en junio.
+Las fechas de entrega de las PECs fueron escalonadas a lo largo del tiempo en el curso 2026/2027.
+
+| Núm. | % nota | Fecha aprox. entrega |
+| - | - | - |
+| 1 | 25 | 31-ene |
+| 2 | 25 | 28-feb |
+| 3 | 25 | 15-may |
+| 4 | 25 | 15-may |
+
+No hay exámenes, al igual que en el resto de asignaturas del máster.
 
 ## Bibliografía
 
@@ -30,4 +67,3 @@ Entregas todas en junio.
 
 - Activas
     - Grupo "[Aplicaciones de tecnologías del lenguaje](https://t.me/+yns2qJW0eEk2N2U0)" en Telegram.
-

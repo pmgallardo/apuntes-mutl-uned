@@ -1,0 +1,17 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: MIT
+-->
+
+# Tema 3: Aplicaciones basadas en *prompting* para modelos de IA generativa 
+
+## 3.1 Introducción al prompting para modelos de IA generativa. 
+
+## 3.2 Aplicaciones: 
+
+### 3.2.1 Ejemplo 1: Reconocimiento de Entidades Nombradas (Named Entity Recognition, NER) 
+
+### 3.2.2 Ejemplo 2: Análisis de Sentimientos (Sentiment Analysis)
+
+## EVALUACIÓN: Tarea de carácter práctico correspondiente al tema 3.
