@@ -86,6 +86,22 @@ Se recomienda revisar las entradas en este repositorio para cada asignatura, en 
 Se pueden ver las estadísticas de asignaturas en:  
 <https://app.uned.es/evacal/rendac.aspx>
 
+## Dependencias de asignaturas
+
+```{mermaid}
+graph TD
+    RN[Redes neuronales para el PLN] -.-> AT[Aplicaciones de tecnologías del lenguaje]
+    FPL[Fundamentos de procesamiento lingüístico] -.-> AT
+
+    %% Enlaces a los nodos
+    click RN href "../rn/" _blank
+    click AT href "../at/" _blank
+    click FPL href "../fpl/" _blank
+```
+
+Línea continua: recomendada  
+Línea punteada: beneficioso  
+
 ## Reconocimiento de créditos
 
 [Enlace oficial a reconocimiento de créditos en másteres de la ETSII](https://www.uned.es/universidad/facultades/informatica/bienvenida/estudiantes/reconocimiento-creditos-master.html)  
@@ -126,4 +142,3 @@ En UNED Calatayud hay una entrada a [exámenes del Máster Universitario en Leng
 - Inactivas
     - <https://www.elcajondelauned.com/viewtopic.php?p=53584>
     - [Máster universitario en lenguajes y sistemas informáticos](https://www.elcajondelauned.com/viewforum.php?f=183)
-
