@@ -1,0 +1,15 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Estructura de la asignatura
+
+* Tema 1. Metodología de investigación en Procesamiento del Lenguaje Natural
+* Tema 2. Planteamiento de problemas de investigación
+* Tema 3. Abstracción del problema y métricas de evaluación
+* Tema 4. Diseño experimental
+* Tema 5. Recolección y anotación de datasets
+* Tema 6. Análisis de resultados
+* Tema 7. Comunicación científica

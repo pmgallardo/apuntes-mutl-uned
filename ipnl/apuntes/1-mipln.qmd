@@ -1,3 +1,7 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
@@ -8,3 +12,12 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Apuntes sobre el tema 1 de la asignatura.
 
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@gonzalo2023]
+* [@urbano2022phd]
+* [@ruder2020tips]
+* [@dredze2012successful]
+:::
+
+## Bibliografía

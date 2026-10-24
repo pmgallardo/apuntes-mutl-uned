@@ -32,13 +32,14 @@ book:
     - general.qmd
     - part: "Apuntes"
       chapters:
-      - apuntes/01-mipln/01-mipln.qmd
-      - apuntes/02-ppi/01-ppi.qmd
-      - apuntes/03-apme/01-apme.qmd
-      - apuntes/04-de/01-de.qmd
-      - apuntes/05-rad/01-rad.qmd
-      - apuntes/06-ar/01-ar.qmd
-      - apuntes/07-cc/01-cc.qmd
+      - apuntes/0-estructura.qmd
+      - apuntes/1-mipln.qmd
+      - apuntes/2-ppi.qmd
+      - apuntes/3-apme.qmd
+      - apuntes/4-de.qmd
+      - apuntes/5-rad.qmd
+      - apuntes/6-ar.qmd
+      - apuntes/7-cc.qmd
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd
