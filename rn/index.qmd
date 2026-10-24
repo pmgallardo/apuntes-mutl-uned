@@ -4,37 +4,8 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Introducción
+# Presentación {.unnumbered}
 
-Código: 31070017
-Nombre: Redes neuronales para el procesamiento del lenguaje natural
-Abreviatura: `rn`
-Enlace a [ficha oficial](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31070017&codTitulacion=310701&idContenido=1)
+Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Redes neuronales para el procesamiento del lenguaje natural** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/rn/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/rn/rn.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/rn/rn.epub) (ebook).
 
-## Opiniones de antiguos alumnos
-
-De más recientes a más antiguas:
-
-- D.: *Sólo matizo que yo la cursé el año pasado y fue algo diferente: no hubo práctica opcional, ni nada de prompting. Las notas salían en semanas después de la entrega. Algo de feedback daban e incluso un profesor me pidió que le llamara por teléfono para comentar el ejercicio. Supongo que cada año ajustan contenidos y/o cambia el equipo docente*.
-
-- S.: *En el caso de los Transformer y prompts estaba la práctica opcional que iba de eso. Por lo demás, a mí me parece que el contenido de la asignatura es un poco pobre, diapositivas no muy trabajadas. Además, las prácticas son sobre el mismo dataset, pero no las han ido corrigiendo durante el año, por lo que podrías arrastrar errores de una a otra, algo que a mí no me gusta puesto que aprovecho mucho el feedback*.
-
-- J.: *bien estructurada y planificada. Orientada a la práctica. Solo le pongo el "pero" de que le faltan un par de años de actualización: se ven transformers pero no LLMs, prompting, etc.*
-
-- L.: *Yo [diría que se solapan] minería de información social y redes neuronales quizás... ¿Y vectores con redes? Pero ya*.
-
-- A.: *Esta necesitas picar código sí o sí y tener conocimiento de estadística y preprocesamiento de datos textuales. Muy útil porque al final vas a terminar entrenando un clasificador que haga X. Los tutores se implican, contestan cuando pueden pero si les escribes te responden encantados. En RNN y Vectores pasa que ¡los contenidos se solapan! Y entonces enlazas ideas y dices… pues ya entiendo esto*.
-
-## Bibliografía
-
-- Básica
-    - Material proporcionado por el equipo docente.
-- Complementaria
-    - Bokka, Karthiek Reddy; Wambugu, Monicah; Jain, Tanuj; Hora, Shubhangi. [Deep Learning for Natural Processing Language](https://www.packtpub.com/en-us/product/deep-learning-for-natural-language-processing-9781838550295). ISBN 9781838550295. Packt Publishing.
-
-## Comunidades
-
-- Activas
-    - [Redes neuronales // UNED](https://t.me/+X9OKNYRtF3g2YTNi) en Telegram
-
-
+{{< include ../master/_index.qmd >}}

@@ -28,6 +28,12 @@ book:
     
   chapters:
     - index.qmd
+    - general.qmd
+    - part: "Anexos"
+      chapters:
+      - anexos/contribuciones.qmd
+      - anexos/licencia.qmd
+
 
 lang: es
 
