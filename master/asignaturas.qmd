@@ -1,0 +1,100 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Asignaturas
+
+## Planes de estudios
+
+El MUTL ha tenido varios planes de estudio durante su historia:
+
+- 2024  
+- 2019  
+
+La diferencia principal entre los dos planes es que el de 2019 tenía un trabajo de 30 créditos y el de 2024 tiene un trabajo de 18 créditos.
+
+### Plan de estudios 2024
+
+Único plan ofertado a nuevos alumnos desde el curos 2023/2024. 
+
+Requiere escoger 7 asignaturas (42 ECTS) más el TFM (18 ECTS).
+
+### Plan de estudios 2019
+
+Este plan ya no se oferta a nuevos alumnos.
+
+Requería escoger 5 asignaturas más el TFM.
+
+## Calendario
+
+Se debe comprobar el calendario académico-administrativo para cada curso lectivo.
+
+[Enlace a calendario académico-administrativo en UNED](https://www.uned.es/universidad/inicio/estudiantes/calendario-academico-administrativo.html)
+
+Periodos aproximados:
+
+- Preinscricpión ordinaria: 3.ª sem. mayo-1.ª sem. de julio
+- Preinscripción extraordinaria: 1.ª sem. septiembre
+- Resolución preadmisión: 4.ª semana de julio
+- Periodo de matrícula: 1.ª sem. julio-3.ª sem. octubre
+- Inicio curso: 1.ª sem. octubre
+- Cierre listas:
+- Cierre actas:
+
+## Preinscripción y matrícula
+
+Para los nuevos alumnos, este máster requiere preinscripción y posterior matrícula. Existe un periodo de inscripción ordinario y otro extraordinario para las plazas que han quedado libres.
+
+Los antiguos alumnos de este máster solo deben realizar la matrícula.
+
+Los alumnos deben completar todas las asignaturas del máster en un periodo máximo de 4 años.
+
+[Preinscripción](https://app.uned.es/preinsc-alumno/inicio-master)
+
+### Elección de asignaturas
+
+Para esocger las asignaturas se recomienda revisar las siguientes fuentes:
+
+- Ficha de la asignatura
+- Opiniones de la asignatura
+- Estadísticas de asignaturas del máster
+
+Para revisar la ficha de la asignatura.
+
+Se recomienda revisar las entradas en este repositorio para cada asignatura, en la página principal.
+
+Se pueden ver las estadísticas de asignaturas en:  
+<https://app.uned.es/evacal/rendac.aspx>
+
+## Dependencias de asignaturas
+
+```{mermaid}
+graph TD
+    RN[Redes neuronales para el PLN] -.-> AT[Aplicaciones de tecnologías del lenguaje]
+    FPL[Fundamentos de procesamiento lingüístico] -.-> AT
+
+    %% Enlaces a los nodos
+    click RN href "../rn/" _blank
+    click AT href "../at/" _blank
+    click FPL href "../fpl/" _blank
+```
+
+Línea continua: recomendada  
+Línea punteada: beneficioso  
+
+## Reconocimiento de créditos
+
+[Enlace oficial a reconocimiento de créditos en másteres de la ETSII](https://www.uned.es/universidad/facultades/informatica/bienvenida/estudiantes/reconocimiento-creditos-master.html)  
+[Enlace a reconocimiento de créditos de la UNED](https://www.uned.es/universidad/inicio/atencion-estudiante/reconocimiento-creditos.html)  
+
+Solo se puede solicitar reconocimiento de créditos en la matrícula, no en la preinscripción. Para solicitarlo, es necesario contactar por correo electrónico con el Negociado de Másteres Oficiales de ETSII (ver contactos).
+
+En caso de reconocimiento de créditos entre títulos de la UNED, no es necesario adjuntar certificado de calificaciones del alumno o documentación relacionada con la asignatura.
+
+En todos los casos será necesario enviar una plantilla rellena con las asignaturas a convalidar. Esta plantilla es facilitada al contactar con el Negociado.
+
+A diferencia de para los grados de ETSII, la Escuela no proporciona una tabla de reconocimiento de crédito. No obstante, en este repositorio se añaden a cada asignatura los reconocimiento de créditos reportados por antiguos alumnos. Además, se puede anticipar la consulta al personal docente de la asignatura del MUTL para la cual se va a pedir la convalidación, ya que al final serán ellos los que validarán la petición formal de reconocimiento de créditos que se envían a través del Negociado. 
+
+Para dudas sobre el proceso de reconocimiento de créditos se puede contactar con el Negociado de Másteres Oficiales de ETSII (ver contactos).

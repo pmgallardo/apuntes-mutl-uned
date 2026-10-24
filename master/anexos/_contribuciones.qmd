@@ -4,8 +4,6 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Contribuciones {.unnumbered}
-
 La documentación de este repositorio está elaborada de manera voluntaria, por lo que necesitamos tu colaboración para poder mejorar y actualizar el contenido.
 
 Es posible que la versión que estés viendo esté incompleta o contenga errores, y la única manera de mejorarla es que entre todos aportemos pequeños cambios.

@@ -1,0 +1,19 @@
+<!--
+SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# Evaluación 
+
+El único método de evaluación son las pruebas de evaluación continua (PECs). 
+
+## PECs
+
+En general se ven todas las PECs desde el principio, excepto algunas asignaturas que van presentando poco a poco las PECs y el material docente.
+
+## Exámenes
+
+El MUTL no tiene exámenes, solo se evalúa con PECs y la defensa del TFM.
+
+En UNED Calatayud hay una entrada a [exámenes del Máster Universitario en Lenguajes y Sistemas Informáticos](http://www.calatayud.uned.es/Examenes/auth/step2.asp?NewExams=Continuar&ID_Carrera=3101), que está vacío.

@@ -30,6 +30,8 @@ book:
   chapters:
     - index.qmd
     - general.qmd
+    - asignaturas.qmd
+    - evaluacion.qmd
     - part: "Anexos"
       chapters:
       - anexos/contribuciones.qmd
