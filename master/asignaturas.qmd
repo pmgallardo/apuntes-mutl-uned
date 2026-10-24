@@ -72,13 +72,35 @@ Se pueden ver las estadísticas de asignaturas en:
 
 ```{mermaid}
 graph TD
-    RN[Redes neuronales para el PLN] -.-> AT[Aplicaciones de tecnologías del lenguaje]
-    FPL[Fundamentos de procesamiento lingüístico] -.-> AT
-
+    AII[Acceso Inteligente a la Información] --> TFM[Trabajo Fin de Máster]
+    AT[Aplicaciones de tecnologías del lenguaje] --> TFM
+    FPL[Fundamentos de procesamiento lingüístico] --> TFM
+    IPNL[Investigación en PNL] --> TFM
+    MB[Motores de Búsqueda] --> TFM
+    MD[Minería de Datos] --> TFM
+    MP[Métodos probabilistas] --> TFM
+    MS[Minería información social] --> TFM
+    MT[Minería de Textos] --> TFM
+    RN[Redes neuronales para el PLN] --> TFM
+    SP[Semántica y Pragmática en la Web] --> TFM
+    TBG[Técnicas basadas en grafos aplicados al procesamiento del lenguaje] --> TFM
+    RN -.-> AT
+    FPL -.-> AT
+    
     %% Enlaces a los nodos
-    click RN href "../rn/" _blank
+    click AII href "../aii/" _blank
     click AT href "../at/" _blank
     click FPL href "../fpl/" _blank
+    click IPNL href "../ipnl/" _blank
+    click MB href "../mb/" _blank
+    click MD href "../md/" _blank
+    click MP href "../mp/" _blank
+    click MS href "../ms/" _blank
+    click MT href "../mt/" _blank
+    click RN href "../rn/" _blank
+    click SP href "../sp/" _blank
+    click TBG href "../tbg/" _blank
+    click TFM href "../tfm/" _blank
 ```
 
 Línea continua: recomendada  
