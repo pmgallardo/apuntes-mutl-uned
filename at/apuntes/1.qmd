@@ -53,6 +53,7 @@ SPDX-License-Identifier: MIT
 
 ::: {.callout-note collapse=false}
 * [@uned_presentacion_sa]
+:::
 
 ## EVALUACIÓN: Tarea con cuestiones de carácter teórico.
 
