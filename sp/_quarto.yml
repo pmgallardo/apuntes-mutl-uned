@@ -40,7 +40,7 @@ book:
       - anexos/contribuciones.qmd
       - anexos/licencia.qmd
 
-lang: es
+lang: es-ES
 
 format:
   html:

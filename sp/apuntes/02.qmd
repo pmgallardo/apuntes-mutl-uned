@@ -1,6 +1,5 @@
 ---
 bibliography: ../referencias.bib
-lang: es-ES
 ---
 
 <!--
