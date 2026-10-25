@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: MIT
 -->
 
-# Tema 2:
+# Tema 2: Aplicaciones basadas en modelos pre-entrenados y fine-tuning
 
 ## 2.1 Introducción al fine-tuning de los Modelos de Lenguaje Preentrenados. 
 
