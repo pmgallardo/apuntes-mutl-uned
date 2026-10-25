@@ -60,8 +60,10 @@ No hay exámenes, al igual que en el resto de asignaturas del máster.
 
 - Básica
     - Material propio del equipo docente.
-- Complementario
-    - Bibliografía referida en el material propio del equipo docentes.
+- Complementaria
+    - Juraskfy et al. [Speech and Language Processing](https://web.archive.org/web/20090205112031/http://www.cs.colorado.edu/~martin/slp2.html). 2.ª ed. Pearson, 2009. 
+    - Bird et al. [Natural Language Processing with Python](https://www.nltk.org/book/). 1.ª ed. O'Reilly, 2009.
+    - Otra bibliografía referida en el material propio del equipo docentes.
 
 ## Comunidades
 
