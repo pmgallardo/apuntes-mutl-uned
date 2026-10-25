@@ -1,10 +1,35 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Planteamiento de problemas de investigación
+# Tema 2: Planteamiento de problemas de investigación
 
-Planteamiento de problemas de investigación.
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* Básica
+  * [@gonzalo2023problemas]
+* Complementaria
+  * [@eisner1997find_problems]
+:::
 
+El alumno comienza el tema con la lectura del documento de planificación y orientaciones del tema 2 en @planificacion_tema2.
+
+El profesorado introduce el tema de planteamiento de problemas de investigación en @gonzalo2023problemas.
+
+El diseño de proyectos en PLN se realiza aplicando los siguientes pasos, destacándose que el más crítico es el de formular las preguntas correctas:
+
+1. **Selección del tema**: Debe combinar innovación científica y utilidad social, asegurando que su dificultad sea manejable para evitar el estancamiento.
+2. **Modelado del problema**: Es necesario traducir el reto a tareas abstractas (como clasificación o etiquetado) para definir métricas precisas de evaluación.
+3. **Preguntas de investigación**: Estos interrogantes dirigen todo el proyecto, dictando la aproximación teórica y el diseño experimental.
+4. **Objetivos concretos**: Metas específicas derivadas directamente de las preguntas principales para estructurar el trabajo.
+5. **Vanguardia**: Mapear los límites del conocimiento existente para garantizar que la investigación realmente expanda las fronteras tecnológicas.
+
+Se recomienda la lectura de @eisner1997find_problems.
+
+## Bibliografía

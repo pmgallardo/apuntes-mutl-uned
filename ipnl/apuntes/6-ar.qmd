@@ -1,10 +1,69 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Análisis de resultados
+# Tema 6: Análisis de resultados
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@gonzalo2023analisis]
+* [@google_loss_curves]
+* [@dror2018hitchhiker]
+* [@wiki_standard_error]
+* [@wiki_grubbs_test]
+* [@edinburgh2023graphs]
+* [@graphpad_grubbs]
+* [@amigo2011combining]
+* [@burnell2023rethink]
+* [@gianola2021differential]
+:::
 
 El tema 6 de la asignatura no estaba asociado a ningún trabajo de evaluación, en el curso 2026/2027.
 
+El profesorado ofrece una introducción en @gonzalo2023analisis.
+
+## Curvas de pérdida
+
+Se ofrece una introducción a las curvas de pérdida en @google_loss_curves.
+
+## Tests de relevancia estadística
+
+Se ofrece @dror2018hitchhiker como referencia para el estudio de la aplicación de tests de relevancia estadística en PLN.
+
+## Error estándar
+
+Se introduce al error estándar mediante a partir de la entrada @wiki_standard_error.
+
+## Detección de outliers
+
+Para la detección de valores anómalos o *outliers*, se puede aplicar test de Grubbs.
+
+Para la explicación del test de Grubbs se remite a @wiki_grubbs_test, mientras que para la aplicación del mismo se dirige a @graphpad_grubbs.
+
+## Combinacion de métricas
+
+Sobre combinación de métricas e Unanimous Improvement Ratio:
+
+Amigó et al: Combining Evaluation Metrics via the Unanimous Improvement Ratio and its Application to Clustering Tasks, JAIR vol 42, 2011: https://www.jair.org/index.php/jair/article/view/10737
+
+Se trata la combinación de métricas y el ratio de mejora unánime (*unanmous improvement ratio*) en el artículo @amigo2011combining,
+
+## Agregación de resultados
+
+En la investigación de PLN, evaluar los modelos de lenguaje basándose únicamente en métricas agregadas, como promedios globales de precisión o puntuaciones F1, resulta insuficiente. Estas cifras generales enmascaran errores críticos y sesgos al procesar ciertos dialectos, expresiones minoritarias o fenómenos lingüísticos complejos.
+
+Para garantizar aplicaciones seguras y justas, es indispensable superar la dependencia de las métricas globales y exigir la publicación de resultados a nivel de instancia, lo que permite auditar exactamente en qué contextos y con qué tipo de textos fallan los sistemas.
+
+Se remite a la lecutra de @burnell2023rethink.
+
+## Análisis cuantitativo y evaluación dieferencial
+
+Se remite al artículo @gianola2021differential para tratar sobre el análisis cualitativo y la evaluación diferencial.
+
+## Bibliografía

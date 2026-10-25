@@ -1,10 +1,45 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Recolección y anotación de datasets
+# Tema 5: Recolección y anotación de datasets
 
-Apuntes sobre el tema 5 de la asignatura.
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@gonzalo2023datasets]
+* [@linkedin_nlp_annotation]
+* [@callisonburch_crowdsourcing]
+* [@uma2021learning]
 
+:::
+
+El profesorado presenta la asignatura en @gonzalo2023datasets.
+
+## Anotación de texto para tareas de PLN
+
+El documento abierto @linkedin_nlp_annotation trata sobre la anotación de texto para tareas de PLN y acepta contribuciones.
+
+## Recolección de texto no anotado
+
+La recolección de texto no anotado se trata tanto en la presentación de la asignatura como en @penedo2023refinedweb.
+
+## Crowdsourcing
+
+El curso @callisonburch_crowdsourcing ofrece distintas videoclases, entre las cuales el profesorado recomienda:
+
+- Introduction (Crowdsourcing and Human Computation)
+- The Amazon Mechanical Turk Crowdsourcing Platform
+- Linguistic wisdom from the Crowd
+- Quality Control
+
+## Desacuerdo entre anotadores
+
+En @uma2021learning se habla del desacuerdo entre anotadores y su uso.
+
+## Bibliografía

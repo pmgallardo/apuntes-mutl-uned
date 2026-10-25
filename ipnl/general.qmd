@@ -42,6 +42,8 @@ Todos los trabajos comparten una fechas de entregas comunes, una al finalizar la
 
 - Básica
     - Referencias dentro del curso virtual.
+- Complementario
+  - Alley, Michael. The Craft of Scientific Writing. 4.ª ed. New York, NY: Springer, 2018.
 
 ## Comunidades
 

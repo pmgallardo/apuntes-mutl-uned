@@ -1,10 +1,141 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Comunicación científica
+# Tema 7: Comunicación científica
 
-Apuntes sobre el tema 7 de la asignatura.
+En este tema se tratan aspectos relacionados con la comunicación científica en el contexto de procesamiento de lenguaje natural (PLN).
 
+## Preparación de artículo y envío
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@potts2022presenting3]
+:::
+
+El vídeo @potts2022presenting3 explica cómo realizar la preparación y el envío para evaluación y publicación de un artículo científico en el contexto de PLN.
+
+## Revisión por pares
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@codina_peerreview]
+:::
+
+El proceso de revisión por pares o *peer review* se aplica en la remisión de artículos para su valoración previa a su posible publicación. El documento @codina_peerreview explica cómo se realiza.
+
+## Índices de impacto
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@uned_herramientas_inicio]
+* [@uned_herramientas_revistas]
+* [@uned_herramientas_ciencias]
+:::
+
+Para un científico, es importante poder cuantificar el impacto de las publicaciones científicos, y por ello se han desarrollado medidas y herramientas específicas con este objetivo.
+
+Dos de los índices más empleados son el **Journal Citation Reports** (**JCR**), para publicaciones en revistas, y el **GII-GRIN-SCIE** (**GGS**), para publicaciones en congresos y conferencias.
+
+La biblioteca de la UNE ofrece una serie de guías sobre cómo emplear estas herramientas de medición de índices de impacto:
+
+- Inicio: @uned_herramientas_inicio
+- Publicaciones en revistas: @uned_herramientas_revistas
+- Índices JCR y GGS: @uned_herramientas_ciencias
+
+## Conferencias, workshops y revistas
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@jungle_nlp_conferences]
+* [@scholar_computational_linguistics]
+* [@acl_anthology]
+* [@chen2022nlp]
+* [@arxiv_cs_cl_recent]
+:::
+
+Existen catálogos de catálogos de revistas, conferencias, talleres y talleres en el contexto de PLN:
+
+- @jungle_nlp_conferences
+- @scholar_computational_linguistics
+- @acl_anthology
+
+Los principales medios para publicar están recopilados en @chen2022nlp.
+
+En @arxiv_cs_cl_recent se publicar versiones pre-publicadas que no han pasado aún la revisiones por pares.
+
+## Reproducibilidad
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@cohen2018reproducibility]
+* [@repronlp]
+:::
+
+En el contexto de la investigación científica, la **reproducibilidad** es la capacidad de que otro investigador, utilizando los mismos datos, el mismo código y los mismos métodos originales, obtenga exactamente los mismos resultados.
+
+El artículo @cohen2018reproducibility trata la reproducibilidad en el contexto de PLN.
+
+**ReproNLP** es una plataforma colaborativa de tareas compartidas (*shared tasks*) para evaluar, estandarizar y mejorar la reproducibilidad de las evaluaciones dentro del PLN. Se presenta en @repronlp.
+
+## Escritura de trabajos científicos
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@potts2022presenting2]
+* [@eisner_write_paper]
+* [@eisner_write_thesis]
+* [@shwartz_writing_tips]
+* [@alley2018craft_article]
+:::
+
+@potts2022presenting2 define una estructura típica para documentos científicos en general y en el contexto de PLN en particular.
+
+@eisner_write_paper pone en valor la escritura dentro de la tarea global de la realización del trabajo de investigación.
+
+@eisner_write_thesis se centra más en tesis doctorales, tratando algunos aspectos que son extensibles a artículos científicos.
+
+@shwartz_writing_tips ofrece consejos para escribir artículos en el contexto de PLN.
+
+Michael Alley es escritor del libro @alley2018craft_book que trata sobre cómo escribir documentos en contextos ingenieriles y científicos. Para la asignatura, se sugiere la lectura del tutorial de @alley2018craft_article, que detalla los factores a tener en cuenta.
+
+## Presentación de trabajos científicos
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@potts2022presenting4]
+* [@edinburgh2023audience]
+* [@edinburgh2023precision]
+* [@edinburgh2023structure]
+* [@edinburgh2023abstract]
+* [@edinburgh2023graphs]
+:::
+
+@potts2022presenting4 ofrece consejos generales sobre cómo presentar trabajos en charlas, ya sea en congresos, conferencias o seminarios.
+
+Los siguientes artículos destacan distintos aspectos a considerar en la presentación de trabajos científicos:
+
+- Audiencia: @edinburgh2023audience destaca la importancia de considerar la audencia a la hora de realizar trabajos científicos.
+- Claridad: @edinburgh2023precision
+- Estructura: @edinburgh2023structure
+- Resumen: @edinburgh2023abstract
+- Aspectos visuales: @edinburgh2023graphs
+
+## Propuestas de investigación
+
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@edinburgh2023proposals]
+:::
+
+Las **propuestas de trabajo** son textos académicos singulares cuyo propósito es detallar investigaciones futuras, en contraste con los artículos convencionales que exponen hallazgos ya concluidos. Por lo general, este formato es el que se emplea para defender el diseño de una tesis doctoral o para solicitar becas y fondos que permitan financiar nuevos proyectos científicos.
+
+Se explica más sobre ellas en @edinburgh2023proposals.
+
+## Bibliografía

@@ -8,16 +8,29 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Metodología de investigación del Procesamiento del Lenguaje Natural
-
-Apuntes sobre el tema 1 de la asignatura.
+# Tema 1: Metodología de investigación del Procesamiento del Lenguaje Natural
 
 ::: {.callout-note collapse=false}
 ## 📖Material asociado
-* [@gonzalo2023]
+* [@planificacion_tema1]
+* [@gonzalo2023intro]
 * [@urbano2022phd]
 * [@ruder2020tips]
 * [@dredze2012successful]
 :::
+
+El alumno comienza el tema con la lectura del documento de planificación y orientaciones del tema 1 en @planificacion_tema1.
+
+El profesorado realiza una introducción a la metodología de investigación en PLN en el vídeo @gonzalo2023intro.
+
+El profesorado recomienda ver los siguientes documentos dirigidos a estudiantes de doctorado en Informática e Inteligencia artifical que también son válidos para quien se inicie en la investigación de PLN:
+
+- Vídeo @urbano2022phd
+- Documento @ruder2020tips
+- Documento @dredze2012successful
+
+## Actividad 1
+
+La actividad del tema 1 se limita a presentarse en el foro e indicar inquietudes.
 
 ## Bibliografía

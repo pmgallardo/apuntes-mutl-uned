@@ -1,10 +1,56 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Abstracción del problema y métricas de evaluación
+# Tema 3: Abstracción del problema y métricas de evaluación
 
-Apuntes sobre el tema 3 de la asignatura.
+::: {.callout-note collapse=false}
+## 📖Material asociado
 
+* [@gonzalo2023metricas]
+* [@esuli2010evaluating]
+* [@sai2022survey]
+* [@amigo2019filtering]
+* [@amigo2022extreme]
+* [@amigo2009clustering]
+* [@amigo2013general]
+:::
+
+El profesorado presenta el tema en @gonzalo2023metricas.
+
+## Métricas de etiquetado
+
+En el documento de conferencia @esuli2010evaluating se analizan métricas para la evaluación de sistemas de etiquetado.
+
+En @sai2022survey se presenta una encuesta de métricas de evaluación para sistemas de generación de lenguaje natural (NLG), como los que realizan resúmenes y traducción automática.
+
+## Métricas de clasificación binaria
+
+En el artículo @amigo2019filtering se analizan métricas de clasificación binaria para el filtrado. Enumera las 3 familias métricas y aclara las situaciones en las que se debe aplicar cada uno, aportando ejemplos que ayuden a entenderlos.
+
+## Clasificación extrema y jerárquica
+
+En este artículo se estudia el problema de la clasificación extrema y jerárquica: cuando hay muchas clases posibles y éstas tienen una relación jerárquica. Esta situación es común en muchos dominios de aplicación; el caso más conocido es el del dominio biomédico, en el que las tipologías de enfermedades, síntomas y tratamientos, medicamentos, etc. son muy complejas. Lo más interesante del artículo es que se propone una métrica de propósito general para cualquier problema de clasificación con clasificación multiclase, multietiqueta y jerárquica, así que abarca muchísimas situaciones de aplicación real:
+
+"Evaluating Extreme Hierarchical Multi-label Classification". Enrique Amigo and Agustín Delgado. 2022.  In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 58095819, Dublin, Ireland. Association for Computational Linguistics. (aclanthology.org/2022.acl-long.399)
+
+En el artículo @amigo2022extreme
+
+
+## Métricas de agrupamiento
+
+En el contexto de PLN, las métricas de agrupamiento o *clustering* permiten evaluar cómo se organizan textos, documentos o palabras en grupos según su similitud semántica o lingüística.
+
+En el artículo @amigo2009clustering se presentan métricas de agrupamiento, concluyendo que las más indicadas son las Bcube Precision/Recall en base al análisis realizado.
+
+## Métricas de ordenación
+
+En el artículo @amigo2013general se analizan métricas de ordenación o *ranking*, así como las empleadas en modelos complejos que combinan distintas tareas como agrupamiento, clasificación binaria y ordenación.
+
+## Bibliografía

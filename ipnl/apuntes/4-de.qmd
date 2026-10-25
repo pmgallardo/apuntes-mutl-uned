@@ -1,10 +1,54 @@
+---
+bibliography: ../referencias.bib
+---
+
 <!--
 SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Diseño experimental
+# Tema 4: Diseño experimental
 
-Apuntes sobre el tema 4 de la asignatura.
+::: {.callout-note collapse=false}
+## 📖Material asociado
+* [@gonzalo2023diseno]
+:::
 
+El profesorado presenta el tema en @gonzalo2023diseno.
+
+## Campañas de evaluación
+
+Una **campaña de evaluación** es un congreso organizado donde los investigadores publican un reto, es decir, una tarea específica con sus datos de entrenamiento. Los investigadores que participan construyen sistemas para resolverlo, los envían a ciegas, y la organización evalúa quién lo ha hecho mejor.
+
+Campañas de evaluación relacionadas con PNL y referidas en la asignatura:
+
+- [SemEval](https://semeval.github.io/) (Internacional)
+- [IberLEF](https://sites.google.com/view/iberlef-2026/) (España)
+- [TREC](https://trec.nist.gov/) (EEUU)
+- [CLEF](https://www.clef-initiative.eu/) (Europa)
+- [NTCIR](https://research.nii.ac.jp/ntcir/index-en.html) (Asia/Pacífico)
+
+## Benchmarks
+
+Un ***benchmark*** o **banco de pruebas** clásico es una colección de conjuntos de datos fijos que se emplean como prueba estandarizada de los modelos, debiendo estos alcanzar una nota media para considerarse válidos.
+
+## Leadboards
+
+Una **tabla de clasificación** o ***leadboard*** es una lista pública y actualizada que ordena el rendimiento de diferentes modelos frente a un conjunto de pruebas estandarizadas (benchmarks).
+
+En el contexto de PLN, las tablas de clasificación evalúan de grandes modelos de lenguaje (como son, por ejemplo, GPT-4 o Llama).
+
+## Plataforma de evaluación de modelos
+
+En la práctica, benchmark y leadboard se usan de forma intercambiable ya que habitualmente en la misma plataforma se aplica un benchmark y se publican los resultados en un leaderboard. Es por eso que nos referimos aquí a **plataforma de evaluación de modelos**.
+
+Plataformas de evaluación de modelos relacionadas con PNL referidos en la asignatura:
+
+- [GLUE](https://gluebenchmark.com/)
+- [SuperGLUE](https://super.gluebenchmark.com/)
+- [HELM](https://crfm.stanford.edu/helm/lite/latest/) evalúa modelos de lenguaje masivamente.
+- [Chatbot Arena](https://arena.lmsys.org/) enfrenta modelos a ciegos con humanos como jueces.
+- [ODESIA](http://leaderboard.odesia.uned.es/) evalúa modelos del lenguaje en español. Está desarrollado por la propia UNED.
+
+## Bibliografía
