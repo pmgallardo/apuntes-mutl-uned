@@ -16,105 +16,65 @@ permissions:
   id-token: write
 
 jobs:
-  build-deploy:
+  build-books:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      # Evita que si falla un libro se cancelen los demás
+      fail-fast: false
+      matrix:
+        asignatura: [aii, at, fpl, ipnl, master, mb, md, mp, mt, ms, rn, rt, sp, tbg, tfm]
+    
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
 
       - name: Instalar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          # Evita error 403 Forbidden por tráfico anónimo
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Instalar TinyTeX para PDFs
         run: quarto install tinytex --update-path
 
-      - name: Crear carpeta de ensamblaje (_site)
+      - name: Renderizar asignatura
+        run: quarto render ${{ matrix.asignatura }}
+
+      - name: Subir artefacto parcial
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-${{ matrix.asignatura }}
+          path: ${{ matrix.asignatura }}/_book
+          retention-days: 1
+
+  deploy:
+    needs: build-books
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio (solo para index.html)
+        uses: actions/checkout@v4
+
+      - name: Crear carpeta de ensamblaje
         run: mkdir _site
 
-      - name: Renderizar y copiar aii
-        run: |
-          quarto render aii
-          cp -r aii/_book _site/aii
+      - name: Descargar todos los libros renderizados
+        uses: actions/download-artifact@v4
+        with:
+          path: artefactos
 
-      - name: Renderizar y copiar at
+      - name: Ensamblar la web
         run: |
-          quarto render at
-          cp -r at/_book _site/at
-
-      - name: Renderizar y copiar fpl
-        run: |
-          quarto render fpl
-          cp -r fpl/_book _site/fpl
-
-      - name: Renderizar y copiar ipnl
-        run: |
-          quarto render ipnl
-          cp -r ipnl/_book _site/ipnl
-
-      - name: Renderizar y copiar master
-        run: |
-          quarto render master
-          cp -r master/_book _site/master
-
-      - name: Renderizar y copiar mb
-        run: |
-          quarto render mb
-          cp -r mb/_book _site/mb
-          
-      - name: Renderizar y copiar md
-        run: |
-          quarto render md
-          cp -r md/_book _site/md
-
-      - name: Renderizar y copiar mp
-        run: |
-          quarto render mp
-          cp -r mp/_book _site/mp
-
-      - name: Renderizar y copiar mt
-        run: |
-          quarto render mt
-          cp -r mt/_book _site/mt
-
-      - name: Renderizar y copiar ms
-        run: |
-          quarto render ms
-          cp -r ms/_book _site/ms
-
-      - name: Renderizar y copiar rn
-        run: |
-          quarto render rn
-          cp -r rn/_book _site/rn
-
-      - name: Renderizar y copiar rt
-        run: |
-          quarto render rt
-          cp -r rt/_book _site/rt
-
-      - name: Renderizar y copiar sp
-        run: |
-          quarto render sp
-          cp -r sp/_book _site/sp
-
-      - name: Renderizar y copiar tbg
-        run: |
-          quarto render tbg
-          cp -r tbg/_book _site/tbg
-
-      - name: Renderizar y copiar tfm
-        run: |
-          quarto render tfm
-          cp -r tfm/_book _site/tfm
-
-      # Repite el bloque anterior para cada asignatura adicional
-
-      - name: Copiar página principal (index.html)
-        run: cp index.html _site/index.html
+          for folder in artefactos/book-*/; do
+            asignatura=$(basename "$folder" | sed 's/book-//')
+            mv "$folder" "_site/$asignatura"
+          done
+          cp index.html _site/index.html
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Subir artefacto
+      - name: Subir artefacto para Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: '_site'
