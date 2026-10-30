@@ -4,8 +4,19 @@ SPDX-FileCopyrightText: 2026 Colaboradores de apuntes-mutl-uned
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Presentación
+# Información general
 
-Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Métodos Probabilistas** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/mp/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/mp/mp.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/mp/mp.epub) (ebook).
+Nombre: Métodos probabilistas
 
-{{< include ../master/_index.qmd >}}
+## Opiniones de antiguos alumnos
+
+- D.: *No es complicada, no se necesita un gran conocimiento, pero creo que para el tema de PLN no pega mucho. A mí la asignatura me ha gustado, pero no la recomiendo*.
+
+- S.: *Vengo de una ingeniería informática y el contenido de esta asignatura amplía los vistos en la carrera. No es excesivamente difícil (llevamos 3 notas de 6 entregas creo) pero hay que trabajarla. A mí que no soy muy de estadística me ha costado, pero el contenido me parece muy acertado*.
+
+- J.: *No pude (soy lingüista, me falta base matemática) con Métodos probabilistas, pero me habría gustado. Los materiales eran buenos y el profesor atento y accesible*.
+
+## Comunidades
+
+- Activas
+    - Grupo [Métodos probabilistas](https://t.me/+17xucAHaJ1k3MjYy) en Telegram

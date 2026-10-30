@@ -8,4 +8,6 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Te damos la bienvenida a los recursos de aprendizaje de la asignatura **Semántica y Pragmática en la Web** del MUTL de la UNED, disponibles en [HTML](https://pmgallardo.github.io/apuntes-mutl-uned/sp/), [PDF](https://pmgallardo.github.io/apuntes-mutl-uned/sp/sp.pdf) y [EPUB](https://pmgallardo.github.io/apuntes-mutl-uned/sp/sp.epub) (ebook).
 
+El material está actualizado hasta el curso 2026/2027.
+
 {{< include ../master/_index.qmd >}}
