@@ -36,7 +36,7 @@ $$\text{nota final} = t_1 \cdot 5\% + t_2 \cdot 5\% + t_3 \cdot 10\% + t_4 \cdot
 
 El tema 6 no es evaluado.
 
-Todos los trabajos comparten una fechas de entregas comunes, una al finalizar la convocatoria de junio (06/06/2027) y otra al finalizar la convocatoria de septiembre (05/07/2027).
+Todos los trabajos comparten una fechas de entrega única, una al finalizar la convocatoria de junio (06/06/2027) y otra al finalizar la convocatoria de septiembre (05/07/2027).
 
 ## Bibliografía
 

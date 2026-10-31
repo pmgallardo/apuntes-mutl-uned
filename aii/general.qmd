@@ -20,6 +20,10 @@ Nombre: Acceso inteligente a la información
 
 - A.: *Esta es de leer muchísimo, resumir y sintetizar. En mi opinión, si te gusta el tema aprendes muchísimo y viene bien para saber qué problemas se intentan resolver en cuanto al texto. Te da una visión de los problemas que hay cuando trabajas con información textual. No tiene prácticas de picar código (el año que la cursé, que fue… 2021). Aprendí mucho. Los tutores responden y las correcciones son buenas porque te dan consejos sobre cómo escribir artículos y sobre qué cosas te faltan a explicar en los resúmenes*.
 
+## Evaluación
+
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Comunidades
 
 - Activas

@@ -25,6 +25,10 @@ La asignatura es a menudo referida coloquialmente por los alumnos como "vectores
 
 - A. (21/22): *Va muy de la mano de redes neuronales porque entender cómo representas un texto en un espacio vectorial te facilita luego el entrenamiento de clasificadores. El equipo docente se implica algo. En RNN y Vectores pasa que ¡los contenidos se solapan! Y entonces enlazas ideas y dices… pues ya entiendo esto.*
 
+## Evaluación
+
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Bibliografía
 
 - Básica

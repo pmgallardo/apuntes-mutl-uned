@@ -12,6 +12,10 @@ Nombre: Técnicas basadas en grafos aplicados al procesamiento del lenguaje
 
 [Ficha oficial de la asignatura](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje/asignaturas.html?codAsignatura=31101305&codTitulacion=310701&idContenido=11)
 
+## Evaluación
+
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Bibliografía
 
 - Básica

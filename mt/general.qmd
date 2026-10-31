@@ -22,6 +22,10 @@ Reconocimientos de créditos aceptados para la asignatura, informados por antigu
 | - | - | - |
 | UNED | [MUICD](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/) | [Minería de textos](https://www.uned.es/universidad/inicio/estudios/masteres/master-universitario-en-ingenieria-y-ciencia-de-datos/asignaturas.html?codAsignatura=31110041&codTitulacion=311001&idContenido=1) |
 
+## Evaluación
+
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Comunidades
 
 - Activas

@@ -29,6 +29,10 @@ De más recientes a más antiguas:
 
 - A.: *Esta necesitas picar código sí o sí y tener conocimiento de estadística y preprocesamiento de datos textuales. Muy útil porque al final vas a terminar entrenando un clasificador que haga X. Los tutores se implican, contestan cuando pueden pero si les escribes te responden encantados. En RNN y Vectores pasa que ¡los contenidos se solapan! Y entonces enlazas ideas y dices… pues ya entiendo esto*.
 
+## Evaluación
+
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Bibliografía
 
 - Básica

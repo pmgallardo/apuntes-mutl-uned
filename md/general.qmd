@@ -31,6 +31,8 @@ La evaluación de esta asignatura se realiza únicamente a través de 4 pruebas 
 | 3 | Redes convolucionales |
 | 4 | Random Forests |
 
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Bibliografía
 
 - Básica

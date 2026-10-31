@@ -18,6 +18,10 @@ Nombre: Fundamentos del Procesamiento Lingüistico
 
 - M.: *bien, aunque poco feedback*.
 
+## Evaluación
+
+No se tiene registrado si las entregas se realizan en fecha única (junio) o de manera escalonada a lo largo del curso.
+
 ## Comunidades
 
 - Activas
